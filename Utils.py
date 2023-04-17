@@ -240,6 +240,13 @@ patterns = [
     r"sobre o tema pode ver-se ainda",
     r" vide ",
     # r"vide, por todos,",
+    r"Como acentua a ",
+    r"Como acentua o ",
+    r"por Acórdão do ",
+    r"por Acórdão da ",
+    r"do mencionado acórdão do",
+    r"do mencionado acórdão da",
+    r" cfr. ",
 
 ]
 
@@ -279,23 +286,23 @@ def getQuotesFromFile(filePath):
             continue
         elif("#Referências#" in frase):
             # print("#\t#\t Separação para Referências")
-            data.append("#\t#\t Separação para Referências")
+            data.append("#\t#\t#\t Separação para Referências")
             continue
         elif( re.compile(r'[\[[0-9\/]+]').search(frase)):
             # print(str(i) + "\tbra\t.\t" + frase)
             # print("bra\t.\t" + frase)
-            data.append("bra\t.\t" + frase)
+            data.append("-\tbra\t.\t" + frase)
             continue
         for pattern in patterns:
             if re.search(pattern, lowerPhrase):
                 # print("ref\t|" + pattern + "|\t" + frase)
-                data.append("ref\t|" + pattern + "|\t" + frase)
+                data.append("TP?\tref\t|" + pattern + "|\t" + frase)
                 # print(str(i)+"\tref\t|" + pattern + "|\t" + frase)
                 flag = True
                 break
         if not flag:
             # print("not\t.\t" + frase)
-            data.append("not\t.\t" + frase)
+            data.append("TN?\tnot\t.\t" + frase)
             # print(str(i)+"\tnot\t.\t" + frase)
     # print("###" + frase)
     return data

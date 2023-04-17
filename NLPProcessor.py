@@ -1,106 +1,65 @@
-# -*- coding: utf-8 -*-
-import json
-import os
-import re
-import string
+import torch
+from transformers import AutoTokenizer, AutoModelForTokenClassification
 
-import nltk
-from nltk.corpus import stopwords
-from nltk.tokenize import sent_tokenize
-from string import punctuation
+#https://github.com/nunorc/qaptnet
+#https://huggingface.co/Luciano/bert-base-portuguese-cased-finetuned-peticoes
 
-from nltk.tokenize import word_tokenize
-from nltk.tag import pos_tag
-from nltk.chunk import ne_chunk
-import spacy
-    # nlp = spacy.load('en_core_web_sm')
+# model_checkpoint = "neuralmind/bert-base-portuguese-cased"
+# model_mlm = AutoModelForMaskedLM.from_pretrained(model_checkpoint)
+# # model_mlm = AutoModelForTokenClassification.from_pretrained("neuralmind/bert-base-portuguese-cased")
+# tokenizer_mlm = AutoTokenizer.from_pretrained("neuralmind/bert-base-portuguese-cased")
 
-
-import DbUtils
-import Grabber
-import Utils
-import sys
-import csv
-
-def processQuote(file):
-    # texto2 = file['full_text']
-    # texto2 = Utils.clearText(texto2)
-
-    data = []
-    for item in file:
-        if(item[1] == True):
-            data.append(sent_tokenize(item[0].lower())[0])
-    # for frase in file:
-    #     data1 = [sent_tokenize(frase.lower())]
-    #     if (" in " in frase
-    #         or " by " in frase
-    #         or " pag " in frase
-    #         or " pags " in frase
-    #         or " cfr " in frase
-    #         or re.compile(r'[\[[0-9\/]+]').search(frase)):
-    #         data1.append(True)
-    #         data1.append(frase)
-    #     else:
-    #         data1.append(False)
-    #         data1.append("")
-    #     data.append(data1)
-
-    # texto2 = texto2.encode(encoding = 'UTF-8', errors = 'strict')
-    # a = sent_tokenize(texto2)
-    # for frase in a:
-        # print("###" + frase)
-
-
-    # stopwordsFromFile = ['!', '"', '#', '$', '%', '&', "'", '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', '\\', ']', '^', '_', '`']+ fileChanger()
-    stopwordsFromFile = []
-    stopwordsFromFile = list(dict.fromkeys(stopwordsFromFile))
-    # stopwords = []
-    # with open("assets\\stopwords.txt", 'r', newline='', encoding='utf-8') as stopwordFile:
-    #     for row in stopwordFile:
-    #         stopwords.append(row)
-    stopwords1 = list(stopwords.words('portuguese') + list(punctuation)) + stopwordsFromFile
-
-    stopwords1 = sorted(list(dict.fromkeys(stopwords1)))
-
-    # texto2 = texto2.lower()
-
-    for line in data:
-        cleaned_text = line.translate(str.maketrans('', '', string.punctuation))  # remove pontuation
-        tokenized_words = cleaned_text.split()
-        final_words = []
-        doc = nlp(line)
-        named_entities = [ent.text for ent in doc.ents if ent.label_ == 'PER']
-
-        # Extract publication year using regex
-        year_match = re.search(r'\b\d{4}\b', line)
-        year = year_match.group(0) if year_match else None
-
-        # Extract article/book title using heuristics
-        title = None
-        title_match = re.search(r'\'(.+?)\'', line)
-        if title_match:
-            title = title_match.group(1)
-        else:
-            for token in doc:
-                if token.is_title and not token.is_stop and token.pos_ != 'DET':
-                    title = token.text + ' ' + ' '.join(
-                        [t.text for t in token.rights if t.pos_ not in ['PUNCT', 'SYM']])
-                    break
-        reference = ''
-        if title is not None:
-            reference += '"' + title + '", '
-        if year is not None:
-            reference += year + '.'
-        print(reference)
-        # stop_words = set(stopwords.words('portuguese'))
-        # tokens = word_tokenize(line, language='portuguese')
-        # tagged = nltk.pos_tag(tokens, lang='por')
-        # ne_tagged = ne_chunk(tagged, binary=False)
-        # for chunk in ne_tagged:
-        #     if hasattr(chunk, 'label') and chunk.label() == 'PERSON':
-        #         final_words.append(' '.join(c[0] for c in chunk.leaves()))
-        # for word in tokenized_words:
-        #     if word not in stopwords1:
-        #         final_words.append(word)
-        # print(final_words)
-        # print(nltk.pos_tag(final_words))
+# Load the pre-trained BERT model and tokenizer
+# model_name = 'dbmdz/bert-large-cased-finetuned-conll03-english'
+# model_name = 'neuralmind/bert-large-portuguese-cased'
+# # model_name = 'Luciano/bert-base-portuguese-cased-finetuned-peticoes'
+# tokenizer = AutoTokenizer.from_pretrained(model_name, do_lower_case=False)
+# model = AutoModelForTokenClassification.from_pretrained(model_name)
+#
+# # Define the sentence to be processed
+# # sentence = "This quote was by Charles Dickens in 'The Book'."
+# # sentence = "In his renowned literary work known as 'The Book', the celebrated British author and social critic Charles Dickens uttered the following statement, which has since been widely cited and revered for its profundity and eloquence."
+# sentence = "Está é uma frase em portugês escrita por Joaquim de Almeida"
+#
+# # Tokenize the sentence
+# tokens = tokenizer.encode(sentence, add_special_tokens=False)
+#
+# # Convert token IDs to a PyTorch tensor
+# tokens_tensor = torch.tensor([tokens])
+#
+# # Get the model's predictions for the token classifications
+# outputs = model(tokens_tensor)
+#
+# # Get the predicted labels and convert them to strings
+# predicted_labels = torch.argmax(outputs.logits, axis=-1)
+# predicted_labels = [model.config.id2label[label_id] for label_id in predicted_labels[0].tolist()]
+#
+# # Map the predicted labels back to the original tokens
+# predicted_tokens = tokenizer.convert_ids_to_tokens(tokens)
+# predicted_entities = []
+#
+# # Extract the named entities from the predictions
+# current_entity = None
+# for token, label in zip(predicted_tokens, predicted_labels):
+#     if label.startswith('B-'):
+#         if current_entity:
+#             predicted_entities.append(current_entity)
+#         current_entity = {'entity': label[2:], 'tokens': [token]}
+#     elif label.startswith('I-'):
+#         if not current_entity:
+#             current_entity = {'entity': label[2:], 'tokens': [token]}
+#         else:
+#             current_entity['tokens'].append(token)
+#     else:
+#         if current_entity:
+#             predicted_entities.append(current_entity)
+#             current_entity = None
+#
+# # Print the identified author and book title
+# for entity in predicted_entities:
+#     if entity['entity'] == 'PER':
+#         author = tokenizer.convert_tokens_to_string(entity['tokens'])
+#         print('Author:', author)
+#     elif entity['entity'] == 'MISC':
+#         book_title = tokenizer.convert_tokens_to_string(entity['tokens'])
+#         print('Book Title:', book_title)
