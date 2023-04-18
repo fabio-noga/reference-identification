@@ -240,12 +240,12 @@ patterns = [
     r"sobre o tema pode ver-se ainda",
     r" vide ",
     # r"vide, por todos,",
-    r"Como acentua a ",
-    r"Como acentua o ",
+    r"como acentua a ",
+    r"como acentua o ",
     r"por Acórdão do ",
     r"por Acórdão da ",
-    r"do mencionado acórdão do",
-    r"do mencionado acórdão da",
+    r"mencionado acórdão do",
+    r"mencionado acórdão da",
     r" cfr. ",
 
 ]
