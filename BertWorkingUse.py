@@ -294,11 +294,13 @@ df.head()
 
 text = df.text.values
 labels = df.label.values
+model_name = "neuralmind/bert-large-portuguese-cased"
+# model_name = 'bert-base-uncased'
 
 # %%% PREPROCESSING %%%
 
 tokenizer = BertTokenizer.from_pretrained(
-    'bert-base-uncased',
+    model_name,
     do_lower_case = True
     )
 
@@ -434,7 +436,7 @@ def b_metrics(preds, labels):
 
 # Load the BertForSequenceClassification model
 model = BertForSequenceClassification.from_pretrained(
-    'bert-base-uncased',
+    model_name,
     num_labels = 2,
     output_attentions = False,
     output_hidden_states = False,

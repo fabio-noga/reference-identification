@@ -11,15 +11,15 @@ from transformers import AutoTokenizer, AutoModelForTokenClassification
 
 # Load the pre-trained BERT model and tokenizer
 # model_name = 'dbmdz/bert-large-cased-finetuned-conll03-english'
-# model_name = 'neuralmind/bert-large-portuguese-cased'
-# # model_name = 'Luciano/bert-base-portuguese-cased-finetuned-peticoes'
+# # model_name = 'neuralmind/bert-large-portuguese-cased'
+# # # model_name = 'Luciano/bert-base-portuguese-cased-finetuned-peticoes'
 # tokenizer = AutoTokenizer.from_pretrained(model_name, do_lower_case=False)
 # model = AutoModelForTokenClassification.from_pretrained(model_name)
 #
 # # Define the sentence to be processed
 # # sentence = "This quote was by Charles Dickens in 'The Book'."
-# # sentence = "In his renowned literary work known as 'The Book', the celebrated British author and social critic Charles Dickens uttered the following statement, which has since been widely cited and revered for its profundity and eloquence."
-# sentence = "Está é uma frase em portugês escrita por Joaquim de Almeida"
+# sentence = "In his renowned literary work known as 'The Book', the celebrated British author and social critic Charles Dickens uttered the following statement, which has since been widely cited and revered for its profundity and eloquence."
+# # sentence = "Está é uma frase em português escrita por Joaquim de Almeida"
 #
 # # Tokenize the sentence
 # tokens = tokenizer.encode(sentence, add_special_tokens=False)

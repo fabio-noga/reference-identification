@@ -107,7 +107,7 @@ def clearReferences(text):
 
 
 def makeSchema(jsonString):
-    jsonObject = json.loads(jsonString)
+    jsonObject = json.loads(json.dumps(jsonString))
     newJson = {}
     for key in jsonObject:
         value = jsonObject[key]
@@ -177,7 +177,7 @@ def switch(key, value, jsonObject):
 
 
 def saveData(folder, data):
-    title = "doc_" + str(data.get('Processo')[0].replace("/", "__"))
+    title = "doc_" + str(data.get('_id').replace("/", "__"))
     _saveData(folder, title, data)
 
 
@@ -242,11 +242,11 @@ patterns = [
     # r"vide, por todos,",
     r"como acentua a ",
     r"como acentua o ",
-    r"por Acórdão do ",
-    r"por Acórdão da ",
-    r"mencionado acórdão do",
-    r"mencionado acórdão da",
-    r" cfr. ",
+    # r"por Acórdão do ",
+    # r"por Acórdão da ",
+    # r"mencionado acórdão do",
+    # r"mencionado acórdão da",
+    # r" cfr. ",
 
 ]
 
