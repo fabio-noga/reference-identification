@@ -1,11 +1,13 @@
+import csv
 import json
 import re
 import sys
 from datetime import datetime
 
 import nltk
+from nltk.corpus import mac_morpho
 from nltk.tokenize import sent_tokenize
-from nltk.tokenize.punkt import PunktSentenceTokenizer, PunktParameters
+from nltk.tokenize.punkt import PunktSentenceTokenizer, PunktParameters, PunktTrainer, PunktLanguageVars
 
 abbrev = ['exs', 'exas', 'trf', 'dr', 'dra', 'prof', 'r', 'al', 'als',
           "proc", "procs", "n", "ac", "fls", "art", "arts", "ep", "cfr", "ob", "obs", "cit", "dl",
@@ -13,7 +15,7 @@ abbrev = ['exs', 'exas', 'trf', 'dr', 'dra', 'prof', 'r', 'al', 'als',
           "ver", "vol", "segs",
           "p", "ps", ", p", 'pp', "págs", "pags", "pag", "pág",  # Paginas
           "loc", "op", "ap", "ss", "vs", "cons", "acs",
-          'inc', 'e.g', 'i.e', 'etc',
+          'inc', 'e.g', 'i.e', 'etc', 'sgs', 'vg', 'Lx', 'J',
 
           # "º ", "ª ", "º", "ª", "º",
           # "I", "V", "X", "D", "L", "C", "M",
@@ -250,18 +252,79 @@ patterns = [
 
 ]
 
-def getQuotesFromFile(filePath):
+class CustomLanguageVars(PunktLanguageVars):
+    sent_end_chars = ('.', ';')  # Add ";" as a sentence-ending character
+
+def getQuotesFromFileByPattern(filePath):
     fileData = open(filePath, mode='r', encoding='utf8', buffering=1)
     data = json.load(fileData)
+    textoIntegralLimpo = cleanTokenizer(data)
+    punkt_param = PunktParameters()
+    punkt_param.abbrev_types = set(abbrev)
+    tokenizer = PunktSentenceTokenizer(punkt_param, lang_vars=CustomLanguageVars())
+    # a = sent_tokenize(textoIntegralLimpo)
+    a = tokenizer.tokenize(textoIntegralLimpo)
+    return tokenizeByPatterns(a)
+
+def getQuotesFromFileByName(filePath):
+    fileData = open(filePath, mode='r', encoding='utf8', buffering=1)
+    data = json.load(fileData)
+    textoIntegralLimpo = cleanTokenizer(data)
+    punkt_param = PunktParameters()
+    punkt_param.abbrev_types = set(abbrev)
+    tokenizer = PunktSentenceTokenizer(punkt_param, lang_vars=CustomLanguageVars())
+    # a = sent_tokenize(textoIntegralLimpo)
+    a = tokenizer.tokenize(textoIntegralLimpo)
+    return tokenizeByName(a)
+
+def getQuotesFromFileByNameGrammar(filePath):
+    fileData = open(filePath, mode='r', encoding='utf8', buffering=1)
+    data = json.load(fileData)
+    textoIntegralLimpo = cleanTokenizer(data)
+    punkt_param = PunktParameters()
+    punkt_param.abbrev_types = set(abbrev)
+    tokenizer = PunktSentenceTokenizer(punkt_param, lang_vars=CustomLanguageVars())
+    # a = sent_tokenize(textoIntegralLimpo)
+    a = tokenizer.tokenize(textoIntegralLimpo)
+    return tokenizeByNameGrammar(a)
+
+def getQuotesFromFileByNameInvestigadores(filePath):
+    fileData = open(filePath, mode='r', encoding='utf8', buffering=1)
+    data = json.load(fileData)
+    textoIntegralLimpo = cleanTokenizer(data)
+    punkt_param = PunktParameters()
+    punkt_param.abbrev_types = set(abbrev)
+    tokenizer = PunktSentenceTokenizer(punkt_param, lang_vars=CustomLanguageVars())
+    # a = sent_tokenize(textoIntegralLimpo)
+    a = tokenizer.tokenize(textoIntegralLimpo)
+    return tokenizeByNameInvestigadores(a)
+
+def getQuotesFromFileByNameFromList(filePath):
+    fileData = open(filePath, mode='r', encoding='utf8', buffering=1)
+    data = json.load(fileData)
+    textoIntegralLimpo = cleanTokenizer(data)
+    punkt_param = PunktParameters()
+    punkt_param.abbrev_types = set(abbrev)
+    tokenizer = PunktSentenceTokenizer(punkt_param, lang_vars=CustomLanguageVars())
+    # a = sent_tokenize(textoIntegralLimpo)
+    a = tokenizer.tokenize(textoIntegralLimpo)
+    return tokenizeByNameFromList(a)
+
+def cleanTokenizer(data):
     textoIntegral = data["full_text"]
     textoIntegralLimpo = clearText(textoIntegral)
     textoIntegralLimpo = clearReferences(textoIntegralLimpo)
-    textoIntegralLimpo = textoIntegralLimpo.replace("–","-")
-    textoIntegralLimpo = textoIntegralLimpo.replace(";",".")
-    textoIntegralLimpo = textoIntegralLimpo.replace(" -",".")
-    textoIntegralLimpo = textoIntegralLimpo.replace(" –",".")
-    textoIntegralLimpo = textoIntegralLimpo.replace(":",".")
-    textoIntegralLimpo = textoIntegralLimpo.replace("\n"," ")
+    textoIntegralLimpo = textoIntegralLimpo.replace("\n", " ")
+    textoIntegralLimpo = textoIntegralLimpo.replace("–", "-")
+    # textoIntegralLimpo = textoIntegralLimpo.replace(";",".")  #Para agora dá, mas é importante perceber que isto serve para quando ha mais do que 1 referencia na mesma linha
+    textoIntegralLimpo = textoIntegralLimpo.replace(" ;", ";")
+    # textoIntegralLimpo = textoIntegralLimpo.replace(" -",",") #Nao justifica trocar por ".", mas é importante ter em conta
+    # textoIntegralLimpo = textoIntegralLimpo.replace(" –",",")
+    # textoIntegralLimpo = textoIntegralLimpo.replace(":",".") #Melhor  retirar porque vários livros têm ":" como pontuação no titulo
+    textoIntegralLimpo = textoIntegralLimpo.replace(" .", ".")
+
+    # pattern = r'(\d+)\.'
+    # result = re.sub(pattern, r'\1', string)
     # textoIntegralLimpo = frase.replace("#ENTER#", "")
     pattern = r"(?<=[A-Za-z])\.\."
     replacement = ". . "
@@ -269,26 +332,23 @@ def getQuotesFromFile(filePath):
     pattern = re.compile(r' \b_+\b')
     textoIntegralLimpo = re.sub(pattern, '. #Referências#.', textoIntegralLimpo)
 
-    punkt_param = PunktParameters()
-    punkt_param.abbrev_types = set(abbrev)
-    punkt_param.sent_end_chars = (';', ':', " -")
-    tokenizer = PunktSentenceTokenizer(punkt_param)
+    return textoIntegralLimpo
 
-    # a = sent_tokenize(textoIntegralLimpo)
-    a = tokenizer.tokenize(textoIntegralLimpo)
+
+def tokenizeByPatterns(tokenizer):
     data = []
-    for i, frase in enumerate(a):
+    for i, frase in enumerate(tokenizer):
         flag = False
         # print(re.findall("\..[\[[0-9]+]", frase))
         lowerPhrase = frase.lower()
-        if (len(frase)<5):
-            i=i-1
+        if (len(frase) < 5):
+            i = i - 1
             continue
-        elif("#Referências#" in frase):
+        elif ("#Referências#" in frase):
             # print("#\t#\t Separação para Referências")
             data.append("#\t#\t#\t Separação para Referências")
             continue
-        elif( re.compile(r'[\[[0-9\/]+]').search(frase)):
+        elif (re.compile(r'[\[[0-9\/]+]').search(frase)):
             # print(str(i) + "\tbra\t.\t" + frase)
             # print("bra\t.\t" + frase)
             data.append("-\tbra\t.\t" + frase)
@@ -307,6 +367,205 @@ def getQuotesFromFile(filePath):
     # print("###" + frase)
     return data
 
+def tokenizeByName(tokenizer):
+    names = []
+    with open("assets/surnames.csv", 'r', newline='', encoding='utf-8') as csvfile:  # 4200-072 e 44 e 3060-123 ??
+        lines = csv.reader(csvfile, delimiter=' ', quotechar='|')
+        for row in lines:
+            name = ', '.join(row).split(',')[0]
+            names.append(name)
+
+    names.sort()
+
+    data = []
+    for i, phrase in enumerate(tokenizer):
+        characters_to_replace = [".", ";", ")", "(", ":", "-", "\"", ",", "'", "/"]
+        for char in characters_to_replace:
+            phrase = phrase.replace(char, "")
+        words = phrase.split(" ")
+
+        flag = False
+        lowerPhrase = phrase.lower()
+        if (len(phrase) < 5):
+            i = i - 1
+            continue
+        elif ("#Referências#" in phrase):
+            # print("#\t#\t Separação para Referências")
+            data.append("#\t#\t#\t Separação para Referências")
+            continue
+        elif (re.compile(r'[\[[0-9\/]+]').search(phrase)):
+            # print(str(i) + "\tbra\t.\t" + frase)
+            # print("bra\t.\t" + frase)
+            data.append("-\tbra\t.\t" + phrase)
+            continue
+
+        for i, word in enumerate(words):
+            if word in names:
+                if i != len(words) - 1 and words[i + 1] in names:
+                    flag = True
+                    data.append("TP?\tref\t|" + word + " " + words[i+1] + "|\t" + phrase)
+                    continue
+        if not flag:
+            data.append("TN?\tnot\t.\t" + phrase)
+    return data
+
+def tokenizeByNameFromList(tokenizer):
+    proprios = []
+    apelidos = []
+    with open("assets/proprios.txt", 'r', newline='', encoding='utf-8') as outfile:
+        lines = outfile.readlines()
+        for line in lines:
+            line = line.strip('\n')
+            line = line.strip('\r')
+            proprios.append(line)
+
+    with open("assets/apelidos.txt", 'r', newline='', encoding='utf-8') as outfile:
+        lines = outfile.readlines()
+        for line in lines:
+            line = line.strip('\n')
+            line = line.strip('\r')
+            apelidos.append(line)
+
+    data = []
+    for i, phrase in enumerate(tokenizer):
+        characters_to_replace = [".", ";", ")", "(", ":", "-", "\"", ",", "'", "/"]
+        clean_phrase = phrase
+        for char in characters_to_replace:
+            clean_phrase = clean_phrase.replace(char, "")
+        words = clean_phrase.split(" ")
+
+        flag = False
+        # lowerPhrase = phrase.lower()
+        if (len(phrase) < 5):
+            i = i - 1
+            continue
+        elif ("#Referências#" in phrase):
+            # print("#\t#\t Separação para Referências")
+            data.append("#\t#\t#\t Separação para Referências")
+            continue
+        elif (re.compile(r'[\[[0-9\/]+]').search(phrase)):
+            # print(str(i) + "\tbra\t.\t" + frase)
+            # print("bra\t.\t" + frase)
+            data.append("-\tbra\t.\t" + phrase)
+            continue
+
+        for i, word in enumerate(words):
+            if word in proprios:
+                if i != len(words) - 1 and words[i + 1] in apelidos:
+                    flag = True
+                    data.append("TP?\tref\t|" + word + " " + words[i+1] + "|\t" + phrase)
+                    break
+            if word in apelidos:
+                if i != len(words) - 1 and (words[i + 1] in proprios or words[i + 1] in apelidos):
+                    flag = True
+                    data.append("TP?\tref\t|" + word + " " + words[i+1] + "|\t" + phrase)
+                    break
+        if not flag:
+            data.append("TN?\tnot\t.\t" + phrase)
+    return data
+
+def tokenizeByNameInvestigadores(tokenizer):
+    input_file = "./assets/investigadores.txt"
+
+    names = []
+    with open(input_file, "r", encoding='utf-8') as f:
+        lines = f.readlines()
+        for line in lines:
+            line = line.strip('\n')
+            names.append(line)
+
+    data = []
+    for i, phrase in enumerate(tokenizer):
+
+        flag = False
+        if (len(phrase) < 5):
+            i = i - 1
+            continue
+        elif ("#Referências#" in phrase):
+            # print("#\t#\t Separação para Referências")
+            data.append("#\t#\t#\t Separação para Referências")
+            continue
+        elif (re.compile(r'[\[[0-9\/]+]').search(phrase)):
+            # print(str(i) + "\tbra\t.\t" + frase)
+            # print("bra\t.\t" + frase)
+            data.append("-\tbra\t.\t" + phrase)
+            continue
+
+        for name in names:
+            if name in phrase:
+                flag = True
+                data.append("TP?\tref\t|" + name + "|\t" + phrase)
+                continue
+
+        if not flag:
+            data.append("TN?\tnot\t.\t" + phrase)
+    return data
+
+def tokenizeByNameGrammar(tokenizer):
+    input_file = "./tests/mac_morpho_custom.txt"
+
+    custom_words = [("/", "PUNC")]
+
+    with open(input_file, "r", encoding='utf-8') as f:
+        lines = f.readlines()
+        word_tag_list = [(line.split()[0], line.split()[1]) for line in lines]
+
+    custom_words = custom_words + word_tag_list
+    custom_words = [custom_words]
+
+    sentences = mac_morpho.tagged_sents() + custom_words
+    unigram_tagger = nltk.UnigramTagger(sentences)
+
+    data = []
+    for i, phrase in enumerate(tokenizer):
+        tagged_sentence = unigram_tagger.tag(nltk.word_tokenize(phrase))
+
+        lista_sem_none = []
+        for tupla in tagged_sentence:
+            if tupla[1] is not None:
+                lista_sem_none.append(tupla)
+
+        tagged_sentence = lista_sem_none
+
+        for tuples in word_tag_list:
+            for i, tagTuple in enumerate(tagged_sentence):
+                if tuples[0] == tagTuple[0] and tuples[1] != tagTuple[1]:
+                    tagged_sentence[i] = tuples
+
+        grammar = r"""
+            NOME: {(<NPROP>){2,}}
+            PAG_DOT: {<PAG><PUNC>?}
+            PAGS: {<PAG_DOT><NUM>(<PUNC><NUM>)*}
+        """
+
+        parser = nltk.RegexpParser(grammar)
+        result = parser.parse(tagged_sentence)
+
+        flag = False
+        if (len(phrase) < 5):
+            i = i - 1
+            continue
+        elif ("#Referências#" in phrase):
+            # print("#\t#\t Separação para Referências")
+            data.append("#\t#\t#\t Separação para Referências")
+            continue
+        elif (re.compile(r'[\[[0-9\/]+]').search(phrase)):
+            # print(str(i) + "\tbra\t.\t" + frase)
+            # print("bra\t.\t" + frase)
+            data.append("-\tbra\t.\t" + phrase)
+            continue
+
+        for subtree in result.subtrees():
+            if subtree.label() == "PAGS":
+                for subtree in result.subtrees():
+                    if subtree.label() == "NOME":
+                        flag = True
+                        data.append("TP?\tref\t|" + subtree.leaves()[0][0] + " " + subtree.leaves()[1][0] + "|\t" + phrase)
+                        continue
+
+        if not flag:
+            data.append("TN?\tnot\t.\t" + phrase)
+    return data
 
 def getQuotesArray(filePath):
     fileData = open(filePath, mode='r', encoding='utf8', buffering=1)

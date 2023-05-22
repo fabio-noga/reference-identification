@@ -1,7 +1,6 @@
-TN?	not	.	Acordam no Supremo Tribunal de Justiça.
-TN?	not	.	I) Relatório ASSOCIAÇÃO P. .
+TN?	not	.	Acordam no Supremo Tribunal de Justiça: I) Relatório ASSOCIAÇÃO P. .
 TN?	not	.	A D).. D).. C).. , ao abrigo do disposto nos arts. 25º, 26º, nº 1, al. a) e 27º, nº 2 do Dec-Lei 446/85, de 25 de Outubro, na redacção dada pelos Dec-Lei 220/95, de 31 de Agosto e 249/99, de 7 Julho, intentou, a 14 de Julho de 2003, acção inibitória, contra BANCO C).. P. .
-TN?	not	.	., S.A., pedindo que o réu seja condenado a. a- abster-se de utilizar definitivamente as cláusulas contratuais gerais, que identifica.
+TN?	not	.	., S.A., pedindo que o réu seja condenado a: a- abster-se de utilizar definitivamente as cláusulas contratuais gerais, que identifica;
 TN?	not	.	b- e dar publicidade a esta proibição, afixando o teor da sentença em todos os balcões das suas dependências, e nos jornais diários e semanários de maior tiragem no país.
 TN?	not	.	Estriba, essencialmente, esta sua pretensão no facto do banco réu vir a utilizar, na contratação com os seus clientes, cláusulas violadoras do regime jurídico das cláusulas contratuais gerais constantes do Dec-Lei 446/85.
 TN?	not	.	Contestou o réu para, em síntese, defender que as cláusulas aludidas pela autora não enfermam de qualquer invalidade e que outras já não são utilizadas, pedindo, por isso, a improcedência da acção.
@@ -13,9 +12,7 @@ TN?	not	.	Ainda irresignado, recorre novamente o réu, agora de revista para o S
 TN?	not	.	E recorre subordinadamente a autora sustentando a nulidade de cláusula considerada válida no acórdão.
 TN?	not	.	Contra-alegou a autora em defesa da improcedência do recurso interposto pelo banco réu.
 TN?	not	.	*** Colhidos os vistos legais, cumpre apreciar e decidir.
-TN?	not	.	II) Âmbito dos recursos A- De acordo com as conclusões, a rematar as respectivas alegações, o inconformismo dos recorrentes radica, em síntese, no seguinte.
-TN?	not	.	recurso principal 1- As cláusulas que estabelecem que «O titular compromete-se a, após a sua adesão ao serviço de pagamentos MBNet, utilizar esses servidos de pagamentos em todas e quaisquer transacções que venha a efectuar em ambientes abertos (Internet, WAP, televisão interactiva, etc.) e, ao fazê-lo, reconhece-se devedor ao Banco dos valores registados electronicamente» tem duas partes distintas e só a última parte (em que se lê.
-TN?	not	.	«e, ao fazê-lo, reconhece-se devedor ao Banco dos valores registados electronicamente») pode, eventualmente, ser considerada violadora da norma que proíbe exclusão ou limitação da responsabilidade pelo não cumprimento definitivo, mora ou cumprimento defeituoso, em caso de dolo ou culpa grave.
+TN?	not	.	II) Âmbito dos recursos A- De acordo com as conclusões, a rematar as respectivas alegações, o inconformismo dos recorrentes radica, em síntese, no seguinte: recurso principal 1- As cláusulas que estabelecem que «O titular compromete-se a, após a sua adesão ao serviço de pagamentos MBNet, utilizar esses servidos de pagamentos em todas e quaisquer transacções que venha a efectuar em ambientes abertos (Internet, WAP, televisão interactiva, etc.) e, ao fazê-lo, reconhece-se devedor ao Banco dos valores registados electronicamente» tem duas partes distintas e só a última parte (em que se lê: «e, ao fazê-lo, reconhece-se devedor ao Banco dos valores registados electronicamente») pode, eventualmente, ser considerada violadora da norma que proíbe exclusão ou limitação da responsabilidade pelo não cumprimento definitivo, mora ou cumprimento defeituoso, em caso de dolo ou culpa grave.
 TN?	not	.	2- Ainda assim, esta parte das aludidas cláusulas não constitui uma exclusão ou limitação da responsabilidade pelo não cumprimento definitivo, mora ou cumprimento defeituoso, em caso de dolo ou culpa grave, pois não está em causa nestas cláusulas qualquer exclusão ou limitação de responsabilidade do emitente dos cartões, mas apenas o reconhecimento de que o titular do cartão, ao utilizar os serviços de pagamentos e ao efectuar transacções com o cartão em ambientes abertos assume a obrigação de reembolsar o emitente do cartão pelo valor de tais pagamentos ou transacções.
 TN?	not	.	3- Já a primeira parte dessas cláusulas estabelece, unicamente, uma obrigação para os titulares dos cartões, não constituindo qualquer exclusão ou limitação da responsabilidade pelo não cumprimento definitivo, mora ou cumprimento defeituoso.
 TN?	not	.	4- Por isso, o acórdão recorrido, ao condenar a recorrente a abster-se de utilizar as mesmas cláusulas com fundamento no disposto no art. 18°, al.c), do Dec-Lei 446/85, de 25 de Outubro, violou este preceito.
@@ -33,24 +30,34 @@ TN?	not	.	3- Tratando-se de um contrato de adesão cujo conteúdo, por definiç�
 TN?	not	.	Tal contraria o princípio da boa fé.
 TN?	not	.	Por outro lado, tendo em conta a importância e gravidade das consequências que o funcionamento da cláusula pode acarretar para o consumidor tal cláusula deve ser-lhe comunicada expressamente e obtido o seu consentimento igualmente expresso.
 TN?	not	.	B- Face à posição dos recorrentes vertida nas conclusões das alegações, delimitativas do âmbito do recurso, as questões controvertidas suscitadas reconduzem-se a averiguar da validade ou não de quatro cláusulas inseridas nos contratos de adesão do banco réu.
-TN?	not	.	III) Fundamentação A- Os factos Foram dados como provados no acórdão recorrido os seguintes factos.
-TN?	not	.	1- A autora é urna associação privada de utilidade pública, cujo objecto é a defesa dos direitos e interesses dos consumidores.
+TN?	not	.	III) Fundamentação A- Os factos Foram dados como provados no acórdão recorrido os seguintes factos: 1- A autora é urna associação privada de utilidade pública, cujo objecto é a defesa dos direitos e interesses dos consumidores.
 TN?	not	.	2- O réu uma sociedade comercial cujo objecto compreende a actividade bancária.
-TN?	not	.	3- O réu emitiu a proposta de cartão Nova Rede, modelo .. MA, conforme exemplar do mesmo junto como documento nº 2, com a petição inicial, a fls. 39 e seguintes.
-TN?	not	.	4- O réu emitiu e disponibilizou nos seus balcões a proposta de cartão Nova Rede, modelo .. TC, conforme exemplar junto como documento n° 3, com a petição inicial, a fls. 40 e seguintes.
-TN?	not	.	5- O réu emitiu e disponibilizou nos seus balcões a proposta de cartão Nova Rede, modelo .. TC, conforme exemplar junto como documento n° 4, com a petição inicial, a fls. 44 e seguintes.
-TN?	not	.	6- O réu emitiu e disponibilizou nos seus balcões a proposta de cartão Sottomayor, modelo .. TC, conforme exemplar junto como documento n° 5, com a petição inicial, a fls. 47 e seguintes.
-TN?	not	.	7- O réu emitiu e disponibilizou nos seus balcões a proposta de cartão Atlântico, modelo .. GR, conforme exemplar junto como documento n° 6, com a petição inicial, a fls. 49 e seguintes.
-TN?	not	.	8- O réu emitiu e disponibilizou nos seus balcões a proposta de cartão Atlântico, modelo .. MA, conforme exemplar junto como documento n° 7, com a petição inicial, a fls. 51 e seguintes.
+TN?	not	.	3- O réu emitiu a proposta de cartão Nova Rede, modelo.
+TN?	not	.	MA, conforme exemplar do mesmo junto como documento nº 2, com a petição inicial, a fls. 39 e seguintes.
+TN?	not	.	4- O réu emitiu e disponibilizou nos seus balcões a proposta de cartão Nova Rede, modelo.
+TN?	not	.	TC, conforme exemplar junto como documento n° 3, com a petição inicial, a fls. 40 e seguintes.
+TN?	not	.	5- O réu emitiu e disponibilizou nos seus balcões a proposta de cartão Nova Rede, modelo.
+TN?	not	.	TC, conforme exemplar junto como documento n° 4, com a petição inicial, a fls. 44 e seguintes.
+TN?	not	.	6- O réu emitiu e disponibilizou nos seus balcões a proposta de cartão Sottomayor, modelo.
+TN?	not	.	TC, conforme exemplar junto como documento n° 5, com a petição inicial, a fls. 47 e seguintes.
+TN?	not	.	7- O réu emitiu e disponibilizou nos seus balcões a proposta de cartão Atlântico, modelo.
+TN?	not	.	GR, conforme exemplar junto como documento n° 6, com a petição inicial, a fls. 49 e seguintes.
+TN?	not	.	8- O réu emitiu e disponibilizou nos seus balcões a proposta de cartão Atlântico, modelo.
+TN?	not	.	MA, conforme exemplar junto como documento n° 7, com a petição inicial, a fls. 51 e seguintes.
 TN?	not	.	9- O réu emitiu e disponibilizou nos seus balcões a proposta de cartão Banco C).. P. .
-TN?	not	.	., modelo .. MA, conforme exemplar junto como documento n° 8, com a petição inicial, a fls. 54 e seguintes.
-TN?	not	.	10- O réu emitiu a proposta de cartão American Express, modelo ... /Banco C).. P. .
-TN?	not	.	.., conforme exemplar junto como documento n° 9, com a petição inicial, a fls. 57 e seguintes.
+TN?	not	.	., modelo.
+TN?	not	.	MA, conforme exemplar junto como documento n° 8, com a petição inicial, a fls. 54 e seguintes.
+TN?	not	.	10- O réu emitiu a proposta de cartão American Express, modelo.
+TN?	not	.	/Banco C).. P. .
+TN?	not	.	..., conforme exemplar junto como documento n° 9, com a petição inicial, a fls. 57 e seguintes.
 TN?	not	.	11- A proposta de cartão Nova Rede, referida em 3, é de difícil leitura, assim como a proposta de cartão Sottomayor, referida em 6 e o cartão American Express, descrito em 10.
-TN?	not	.	12- Em Junho de 2003, a proposta de cartão American Express, modelo ... /Banco C).. P. .
-TN?	not	.	.., encontrava-se disponível nos balcões da ré.
-TN?	not	.	13- A proposta de cartão American Express, modelo .. /Banco C).. P. .
-TN?	not	.	.., já não é utilizada pela ré, tendo sido substituída pelos juntos com a contestação como documentos n°s 1 e 2. 14- A proposta de cartão Nova Rede, modelo ... MA, também já não se encontra em vigor, tendo sido substituída pelos cartões referidos em 4 e 5. B- O direito Tradicionalmente, a celebração de um contrato era precedida de uma discussão entre os pactuantes e subsequente acordo sobre os termos de cada uma das suas cláusulas.
+TN?	not	.	12- Em Junho de 2003, a proposta de cartão American Express, modelo.
+TN?	not	.	/Banco C).. P. .
+TN?	not	.	..., encontrava-se disponível nos balcões da ré.
+TN?	not	.	13- A proposta de cartão American Express, modelo.
+TN?	not	.	/Banco C).. P. .
+TN?	not	.	..., já não é utilizada pela ré, tendo sido substituída pelos juntos com a contestação como documentos n°s 1 e 2. 14- A proposta de cartão Nova Rede, modelo.
+TN?	not	.	MA, também já não se encontra em vigor, tendo sido substituída pelos cartões referidos em 4 e 5. B- O direito Tradicionalmente, a celebração de um contrato era precedida de uma discussão entre os pactuantes e subsequente acordo sobre os termos de cada uma das suas cláusulas.
 TN?	not	.	Mas com a criação e fortalecimento de grupos com grande poder económico, a oferta massificada de produtos foi-se diversificando e alargando e começaram a surgir no comércio jurídico os contratos já elaborados por um só dos contraentes, sem possibilidade de discussão do seu conteúdo.
 TN?	not	.	Ao outro contraente está, na prática, vedada a possibilidade de discutir os termos do contrato, restando-lhe aceitar o clausulado que lhe é apresentado já elaborado de modo definitivo.
 TN?	not	.	E as empresas, principalmente as que operam em determinados ramos de actividade económica ou que prestam determinados serviços, adoptam um modelo contratual tipo que utilizam com os seus clientes, que a eles têm de aderir sem possibilidade de discutir os seus termos contratuais.
@@ -65,7 +72,7 @@ TN?	not	.	Já os cartões de crédito, por sua vez, não estão associados à ex
 TN?	not	.	De qualquer modo, os serviços anteriormente prestados pelo banco, através dos seus funcionários, passaram agora a ser prestados por meio de sistemas informáticos.
 TN?	not	.	Munido do cartão e da sua chave (PIN), o cliente tem acesso ao sistema informático e aos serviços por ele disponibilizados e, consequentemente, a poder dispor do dinheiro depositado a todo o momento ou de proceder a pagamentos automáticos sem intervenção do banco.
 TN?	not	.	Expostos estes breves princípios, apreciemos agora as cláusulas em discussão face ao mencionado Dec-Lei 446/85, com as alterações introduzidas pelos Dec-Lei 220/95, de 31 Agosto e 249/99, de 7 Julho.
-TN?	not	.	recurso principal 1- cláusula 6ª, al. o) dos docs. nºs 3 a 7 Dispõe-se na al. o) desta cláusula que o titular se compromete a, após a sua adesão ao serviço de pagamentos MBNet, utilizar esse serviço de pagamento em todas e quaisquer transacções que venha a efectuar em ambientes abertos (Internet, WAP, televisão interactiva, etc.) e, ao fazê-lo reconhece-se devedor ao Banco dos valores registados electronicamente .
+TN?	not	.	recurso principal 1- cláusula 6ª, al. o) dos docs. nºs 3 a 7 Dispõe-se na al. o) desta cláusula que o titular se compromete a, após a sua adesão ao serviço de pagamentos MBNet, utilizar esse serviço de pagamento em todas e quaisquer transacções que venha a efectuar em ambientes abertos (Internet, WAP, televisão interactiva, etc.) e, ao fazê-lo reconhece-se devedor ao Banco dos valores registados electronicamente.
 TN?	not	.	Defende o recorrente que esta cláusula se divide em duas partes distintas e que nenhuma delas enferma de qualquer vício.
 TN?	not	.	Mas o vício da nulidade a existir ele só afectaria a segunda parte, concretamente aquela que se reporta ao reconhecimento da dívida.
 TP?	ref	|segundo|	Segundo o estatuído na al. g) do art. 21º do dec-lei 4465/85, as cláusulas contratuais gerais que modifiquem os critérios de repartição do ónus da prova ou restrinjam a utilização de meios probatórios legalmente admitidos são absolutamente proibidas e, em consequência, nulas (art. 12º).
@@ -73,8 +80,7 @@ TN?	not	.	Com esta cláusula o banco criou, nas transacções efectuadas em ambi
 TN?	not	.	De acordo com esta presunção imposta ao titular do cartão, decorre que, mesmo no caso da dívida real ser inferior à constante dos registos electrónicos, se não conseguir fazer essa prova se tem como assente que deve as quantias assinaladas electronicamente.
 TN?	not	.	Está-se a dar como assente que o registo informático faz prova bastante e suficiente da dívida, fazendo recair sobre o utente o dever de neutralizar essa prova.
 TN?	not	.	Sem esta presunção de dívida, incumbia ao banco credor alegar e demonstrar o montante efectivo do seu crédito, em conformidade com o estatuído no nº 1 do art. 342º C)Civil, já que de facto constitutivo do seu direito se trata.
-TN?	not	.	Por outro lado, o documento onde são registados os movimentos bancários é um documento particular, cuja força é livremente apreciada pelo tribunal.art.
-TN?	not	.	366º C)Civil.
+TN?	not	.	Por outro lado, o documento onde são registados os movimentos bancários é um documento particular, cuja força é livremente apreciada pelo tribunal -art. 366º C)Civil.
 TP?	ref	|nas palavras de|	Acresce que as especificidades destas operações e o facto de serem realizadas mediante a utilização de meios informáticos instalados pela instituição bancária emissora do cartão, meios esses que esta instituição controla e programa , nas palavras de Raquel Guimarães (2) , não possibilitam qualquer interferência do titular do cartão nessa mesma operação.
 TN?	not	.	Por tudo isso, justifica-se a produção de provas nos termos gerais legalmente preconizados.
 TN?	not	.	E não será o facto deste sistema ser relativamente seguro (nunca o será de forma absoluta) que justifica a alteração da repartição do ónus da prova.
@@ -83,11 +89,10 @@ TN?	not	.	Esta cláusula divide-se efectivamente em duas partes distintas, preco
 TN?	not	.	Este segmento da cláusula limita-se a preconizar e dar preferência a determinada forma de pagamento quando se transacciona em ambientes abertos, forma de pagamento relativamente segura.
 TN?	not	.	A obrigação daqui decorrente acaba por se revestir de interesse tanto para o titular do cartão como para o banco e não redunda na violação de qualquer dos princípios de repartição do ónus da prova, tal como se sentenciou na 1ª instância, ou de exclusão ou limitação de responsabilidade, como se considerou no acórdão recorrido.
 TN?	not	.	Esta primeira parte da cláusula não é abusiva, não enfermando de qualquer nulidade.
-TN?	not	.	2- cláusula 6ª, als. e) e f) dos docs. nºs 2 a 8 Dispõe-se expressamente nestas als. da cláusula.
-TN?	not	.	O titular, ao assinar uma factura ou introduzir o PIN, confirma a respectiva transacção e aceita o débito do seu valor, permanecendo o Banco alheio a qualquer incidente ou litígio que ocorra entre o titular e o estabelecimento.
-TN?	not	.	O titular em caso algum pode exigir ao Banco a revogação de uma ordem sua dada através do cartão, sem prejuízo de, sempre que ocorra tal solicitação revogatória, poder o Banco analisar a viabilidade da respectiva execução .
+TN?	not	.	2- cláusula 6ª, als. e) e f) dos docs. nºs 2 a 8 Dispõe-se expressamente nestas als. da cláusula: O titular, ao assinar uma factura ou introduzir o PIN, confirma a respectiva transacção e aceita o débito do seu valor, permanecendo o Banco alheio a qualquer incidente ou litígio que ocorra entre o titular e o estabelecimento;
+TN?	not	.	O titular em caso algum pode exigir ao Banco a revogação de uma ordem sua dada através do cartão, sem prejuízo de, sempre que ocorra tal solicitação revogatória, poder o Banco analisar a viabilidade da respectiva execução.
 TN?	not	.	No acórdão recorrido, dando, aliás, acolhimento ao decidido na 1ª instância, considerou-se que esta parte da cláusula é absolutamente proibida por redundar numa exclusão ou limitação da responsabilidade do banco.
-TN?	not	.	Prescreve a al. c) do art. 18º do Dec-Lei 446/85 que são absolutamente proibidas as cláusulas contratuais gerais que excluam ou limitem, de modo directo ou indirecto, a responsabilidade por não cumprimento definitivo, mora ou cumprimento defeituoso, em caso de dolo ou de culpa grave .
+TN?	not	.	Prescreve a al. c) do art. 18º do Dec-Lei 446/85 que são absolutamente proibidas as cláusulas contratuais gerais que excluam ou limitem, de modo directo ou indirecto, a responsabilidade por não cumprimento definitivo, mora ou cumprimento defeituoso, em caso de dolo ou de culpa grave.
 TN?	not	.	Da cláusula em referência decorre uma evidente irresponsabilização genérica previamente fixada pelo banco, que possa resultar das operações realizadas entre o titular do cartão e terceiros, mesmo em caso de dolo ou culpa grave.
 TN?	not	.	Mas o banco emissor dos cartões não é totalmente alheio às relações estabelecidas entre o titular do cartão e esses terceiros, prestadores de serviços, porquanto, e desde logo, com eles acordou a aceitação do cartão como meio de pagamento.
 TN?	not	.	Como acertadamente se afirma no ac. STJ, de 2008/05/15 (3), esta tríplice relação interpenetra-se, não podendo, sem mais, ser dissociada uma da outra, excluindo-se o banco de toda e qualquer responsabilidade por eventuais danos, designadamente, resultantes de vícios da sua prestação.
@@ -95,23 +100,18 @@ TN?	not	.	Por outro lado, e como bem observa a recorrida em suas contra-alegaç�
 TN?	not	.	O banco, ao pôr-se à margem, de um modo genérico, de todo e qualquer conflito que possa surgir entre o titular do cartão e o terceiro prestador do serviço, está a eximir-se a qualquer responsabilidade decorrente das operações realizadas com o cartão, mesmo que ocorresse uma sua actuação dolosa ou gravemente culposa.
 TN?	not	.	Esta cláusula genérica excludente de responsabilidade em tais situações viola frontalmente o estatuído na al. c) do citado art. 18º, cláusula absolutamente proibida e, como tal, nula.
 TN?	not	.	3- cláusulas referentes ao extravio, furto ou roubo do cartão No acórdão recorrido consideraram-se nulas as cláusulas respeitantes ao extravio, furto ou roubo dos cartões e ao reembolso dos movimentos efectuados antes da comunicação de tais eventualidades, com o fundamento de ser proibido alterar as regras legais do risco, transferindo-o para o aderente do cartão.
-TN?	not	.	Prescreve a al. f) do art. 21º do dec-lei 446/85 que são absolutamente proibidas as cláusulas contratuais gerais que alterem as regras respeitantes à distribuição do risco , o que acarreta a sua nulidade.art.
-TN?	not	.	12º do mesmo diploma.
+TN?	not	.	Prescreve a al. f) do art. 21º do dec-lei 446/85 que são absolutamente proibidas as cláusulas contratuais gerais que alterem as regras respeitantes à distribuição do risco , o que acarreta a sua nulidade -art. 12º do mesmo diploma.
 TN?	not	.	Com esta determinação legal pretende-se, no caso de ocorrer alguma anormalidade no desenrolar do contrato, nomeadamente a verificação de danos, que as consequências nefastas daí decorrentes sejam distribuídas equitativamente por ambas as partes.
 TN?	not	.	Impõe-se, portanto verificar se naquelas cláusulas estão acauteladas as regras de repartição do risco ou se o titular do cartão está excessiva ou desajustadamente onerado.
 TN?	not	.	Ao portador do cartão incumbe a sua guarda e, se por qualquer motivo ele se extravia, tem a obrigação de comunicar ao banco emitente para que este tome as adequadas providências, designadamente impedir o seu uso abusivo por parte de terceiros.
 TN?	not	.	Se se afigura justo e equitativo que o banco emissor do cartão seja responsável pelos movimentos efectuados após a comunicação do seu extravio, na medida em que dispõe de meios para evitar o seu uso, também se justifica a responsabilização do titular pelos danos ou parte dos danos decorrentes desse uso indevido no período anterior a essa comunicação, por ser uma exigência do dever de diligência que sobre ele impende.
-TN?	not	.	Nestas cláusulas dispõem-se.
-TN?	not	.	Quanto aos movimentos efectuados antes da data desta comunicação, salvo actuação com dolo ou negligência grosseira do Titular, o Banco garante.
-TN?	not	.	- No caso dos cartões de crédito, o reembolso, à data da primeira operação considerada irregular, do valor que exceda o saldo disponível face ao limite de crédito que seja do conhecimento do Titular.
+TN?	not	.	Nestas cláusulas dispõem-se: Quanto aos movimentos efectuados antes da data desta comunicação, salvo actuação com dolo ou negligência grosseira do Titular, o Banco garante: - No caso dos cartões de crédito, o reembolso, à data da primeira operação considerada irregular, do valor que exceda o saldo disponível face ao limite de crédito que seja do conhecimento do Titular;
 TN?	not	.	- No caso dos cartões de débito, o reembolso do valor que exceda o saldo disponível, na conta associada ao cartão, também à data da primeira operação considerada irregular que seja igualmente do conhecimento do Titular.
-TN?	not	.	Paralelamente, e por apólice de seguro contratada pelo banco, e salvo actuação com dolo ou negligencia grosseira do Titular, o Banco garante.
-TN?	not	.	- No caso dos cartões de crédito, o reembolso dos pagamentos que, por utilização fraudulenta ou não autorizada do cartão, sejam efectuados por terceiros nas 48 horas imediatamente anteriores à comunicação ao Banco, aplicando-se uma franquia de € 500,00.
+TN?	not	.	Paralelamente, e por apólice de seguro contratada pelo banco, e salvo actuação com dolo ou negligencia grosseira do Titular, o Banco garante: - No caso dos cartões de crédito, o reembolso dos pagamentos que, por utilização fraudulenta ou não autorizada do cartão, sejam efectuados por terceiros nas 48 horas imediatamente anteriores à comunicação ao Banco, aplicando-se uma franquia de € 500,00;
 TN?	not	.	- No caso dos cartões de débito, o reembolso dos pagamentos que, por utilização fraudulenta ou não autorizada do Cartão, aplicando-se uma franquia de € 249,00.
 TN?	not	.	Antes do período das 48 horas imediatamente anteriores à comunicação ao Banco, garante o reembolso das transacções que excedam € 2.493,00.
-TN?	not	.	Estas cláusulas não exoneram o banco emissor do cartão da responsabilidade pelos movimentos efectuados antes da comunicação do seu extravio, apenas impõem um limite para a sua responsabilidade actuar.
-TN?	not	.	nos cartões de crédito, uma franquia de 500 €.
-TN?	not	.	nos cartões de débito, uma franquia de 249 €.
+TN?	not	.	Estas cláusulas não exoneram o banco emissor do cartão da responsabilidade pelos movimentos efectuados antes da comunicação do seu extravio, apenas impõem um limite para a sua responsabilidade actuar: nos cartões de crédito, uma franquia de 500 €;
+TN?	not	.	nos cartões de débito, uma franquia de 249 €;
 TN?	not	.	e garante o reembolso das transacções de valor superior a 2.493 €.
 TN?	not	.	Este clausulado não fere o equilíbrio contratual, estabelecendo uma distribuição do risco que se não configura desproporcionada, antes se apresentando como equitativa e, por outro lado, respeita as orientações emanadas do Banco de Portugal através do Aviso nº 11/2001.
 TN?	not	.	Assim como está em consonância com as orientações comunitárias neste campo que preconizam a repartição do risco de utilizações abusivas entre o emitente do cartão e o seu titular.
@@ -131,7 +131,7 @@ TN?	not	.	Para que as cláusulas a inserir num contrato passem a fazer parte int
 TN?	not	.	Para o efeito, não basta a simples transmissão ao aderente da existências das cláusulas contratuais gerais, exige-se ainda, como refere Almeno de Sá (7), que à contraparte do utilizador sejam proporcionadas condições que lhe permitam aceder a um real conhecimento do conteúdo, a fim de, se o quiser, formar adequadamente a sua vontade e medir o alcance das suas decisões.
 TN?	not	.	Deve ser proporcionada à contraparte a possibilidade razoável de tomar conhecimento dessas cláusulas, como o devia ser por um contraente que usasse da normal diligência.
 TN?	not	.	A assim não acontecer têm-se essas cláusulas por excluídas dos contratos, em conformidade com o disposto nas als. a) e b) do art. 8º do Dec-Lei 446/85.
-TN?	not	.	Dispõe-se nas cláusulas em apreciação que a utilização do cartão para além do limite de crédito que lhe foi atribuído determina o débito imediato do montante excedido na conta de depósitos à ordem vinculadas .
+TN?	not	.	Dispõe-se nas cláusulas em apreciação que a utilização do cartão para além do limite de crédito que lhe foi atribuído determina o débito imediato do montante excedido na conta de depósitos à ordem vinculadas.
 TN?	not	.	Atenta a simplicidade e clareza destas cláusulas, dúvidas não restam que um normal contraente fica inteirado, no momento da conclusão do contrato, do seu significado e implicações.
 TN?	not	.	Fica a saber que, a partir do momento em que ultrapasse o limite de crédito atribuído, esse montante excedido será de imediato debitado na conta associada ao cartão.
 TN?	not	.	Pode acontecer que haja situações em que ocorra um desfasamento temporário entre a efectivação do negócio e o processamento dos lançamentos a débito.
@@ -140,14 +140,13 @@ TN?	not	.	E a consequência daí decorrente, tal qual o débito fosse prontament
 TN?	not	.	A cada momento sabe, ou devia saber, que o plafon foi excedido e, como tal, que esse excesso será imediatamente debitado na respectiva conta.
 TN?	not	.	O contraente está perfeitamente inteirado das regras de utilização do cartão e sabe quais as consequências decorrentes da utilização do cartão quando efectue pagamentos ou levantamentos para além dos limites de crédito atribuídos.
 TN?	not	.	Daí que estas cláusulas não enfermem do vício da nulidade e, como tal, se tenham como inseridas nos contratos efectivos que nelas se baseiam.
-TN?	not	.	IV) Decisão Perante o que exposto fica, acorda-se nos seguintes termos.
-TN?	not	.	a- julgar parcialmente procedente a revista do banco e, consequentemente revogar o acórdão recorrido… - … na parte em que declarou nula a 1ª parte da cláusula 6ª, al. o) dos docs. nºs 3 a 7 das cláusulas gerais.
-TN?	not	.	- … assim como na parte em que declarou nula as cláusulas referentes ao extravio, furto ou roubo do cartão.
-TN?	not	.	b- confirmar, quanto ao mais, o mesmo acórdão.
-TN?	not	.	c- negar a revista da autora.
+TN?	not	.	IV) Decisão Perante o que exposto fica, acorda-se nos seguintes termos: a- julgar parcialmente procedente a revista do banco e, consequentemente revogar o acórdão recorrido… - … na parte em que declarou nula a 1ª parte da cláusula 6ª, al. o) dos docs. nºs 3 a 7 das cláusulas gerais;
+TN?	not	.	- … assim como na parte em que declarou nula as cláusulas referentes ao extravio, furto ou roubo do cartão;
+TN?	not	.	b- confirmar, quanto ao mais, o mesmo acórdão;
+TN?	not	.	c- negar a revista da autora;
 TN?	not	.	d- Condenar nas custas o banco recorrente, na proporção de metade, delas estando isentas a recorrente Deco.
 TN?	not	.	Lisboa, 15 de Outubro de 2009 Alberto Sobrinho (Relação) Maria dos Prazeres Pizarro Beleza Lázaro Faria.
 #	#	#	 Separação para Referências
-TP?	ref	| in |	1- cfr. sobre a questão exposta Antunes Varela, in Das Obrigações em Geral, I, pág. 251 e segs. 2- in As Transferências Electrónicas de Fundos e os Cartões de Débito, pág. 126 .
+TP?	ref	| in |	1- cfr. sobre a questão exposta Antunes Varela, in Das Obrigações em Geral, I, pág. 251 e segs. 2- in As Transferências Electrónicas de Fundos e os Cartões de Débito, pág. 126.
 TP?	ref	| in |	3- proc. nº 08B357, in www.dgsi.pt/jstj 4- cfr., neste sentido, Raquel Guimarães, ob. cit., pág. 107 e já citado ac.
 TP?	ref	| in |	S.T.J., de 99/11/23 5- in C)J.,VIII-3º,67 6- cfr. ac. proferido no citado processo nº 08B357 7- in Cláusulas Contratuais Gerais e Directiva sobre Cláusulas Abusivas, 2ª ed., pág. 234

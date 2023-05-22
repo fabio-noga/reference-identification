@@ -11,8 +11,12 @@ pag PAG
 pags PAG
 pág PAG
 págs PAG
+vol VOL
 / PUNC
 . PUNC
 , PUNC
 ( PUNC
 ) PUNC
+; PUNC
+Varela NPROP
+António NPROP

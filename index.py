@@ -75,13 +75,13 @@ def seeQuotes():
         print(str(i) + ". " + file)
         files.append(os.path.join("verified", file))
     option = input("Choose the file:")
-    data = Utils.getQuotesFromFile(files[int(option) - 1])
+    data = Utils.getQuotesFromFileByPattern(files[int(option) - 1])
     for line in data:
         print(line)
 
-def createQuotes():
+def createQuotesForAll():
     for file in os.listdir("verified"):
-        data = Utils.getQuotesFromFile(os.path.join("verified", file))
+        data = Utils.getQuotesFromFileByPattern(os.path.join("verified", file))
         try:
             folder = "quotes_verificadas"
             title = file
@@ -97,6 +97,21 @@ def createQuotes():
         # return data
         # Utils._saveData2("quotes_verificadas", file, data)
 
+def createQuotesForOne():
+    file = "doc_07B1295.json"
+    data = Utils.getQuotesFromFileByNameFromList(os.path.join("verified", file))
+    try:
+        folder = "quotes_compare"
+        title = file
+        with open(folder + "/" + title + "5.txt", "w", encoding='utf-8') as outfile:
+            for line in data:
+                print(line)
+                outfile.write(line + "\n")
+    except:
+        print(data)
+        print("Error creating " + title, file=sys.stderr)
+        exit()
+    print("File " + title + " created successfully")
 
 def testQuotes():
     doc1 = {'link': '',
@@ -229,6 +244,7 @@ def main():
           "5. Ver toda a base de dados\n" +
           "6. Ver Quotes a partir de ficheiro\n" +
           "7. Criar ficheiros com quotes identificadas via keywords\n" +
+          "8. Criar ficheiro unico com quotes identificadas via keywords\n" +
           "94. Criar ficheiro CSV\n" +
           "95. Criar ficheiro CSV de todos os ficheiros verificados\n" +
           "96. Testar processamento de quotes\n" +
@@ -256,7 +272,9 @@ def main():
     if option == "6":
         seeQuotes()
     if option == "7":
-        createQuotes()
+        createQuotesForAll()
+    if option == "8":
+        createQuotesForOne()
     if option == "95":
         saveQuotes()
     if option == "96":
