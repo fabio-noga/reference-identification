@@ -327,6 +327,7 @@ def cleanTokenizer(data):
     textoIntegralLimpo = clearText(textoIntegral)
     textoIntegralLimpo = clearReferences(textoIntegralLimpo)
     textoIntegralLimpo = textoIntegralLimpo.replace("\n", " ")
+    textoIntegralLimpo = textoIntegralLimpo.replace(" ", "")
     textoIntegralLimpo = textoIntegralLimpo.replace("–", "-")
     # textoIntegralLimpo = textoIntegralLimpo.replace(";",".")  #Para agora dá, mas é importante perceber que isto serve para quando ha mais do que 1 referencia na mesma linha
     textoIntegralLimpo = textoIntegralLimpo.replace(" ;", ";")
@@ -355,7 +356,7 @@ def removeFakeNewLines(phrases):
             if char == ')':
                 if charCounter != 0:
                     charCounter = charCounter - 1
-        if charCounter != 0:
+        if charCounter != 0 and i+1 < len(phrases):
             return removeFakeNewLines(merge_items(phrases, i, i+1))
     return phrases
 

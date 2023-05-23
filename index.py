@@ -81,7 +81,8 @@ def seeQuotes():
 
 def createQuotesForAll():
     for file in os.listdir("verified"):
-        data = Utils.getQuotesFromFileByPattern(os.path.join("verified", file))
+        # data = Utils.getQuotesFromFileByPattern(os.path.join("verified", file))
+        data = Utils.getQuotesFromFileByNameFromListFinal(os.path.join("verified", file))
         try:
             folder = "quotes_verificadas"
             title = file
