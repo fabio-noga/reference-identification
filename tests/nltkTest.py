@@ -1,4 +1,5 @@
 import nltk
+from nltk import Tree
 from nltk.corpus import mac_morpho
 from nltk.tokenize import word_tokenize
 
@@ -40,6 +41,7 @@ new_sentences = [
 #2 na mesma
 # "Os potenciais destinatários deste regime são as companhias de seguros, empresas de transporte, bancos, empresas de fornecimento de água, energia eléctrica ou gás, empresas que se dedicam à transmissão de bens, de maquinaria, de automóveis, de electrodomésticos, etc. (v. António Pinto Monteiro, Contratos de Adesão, pag. 740, e Antunes Varela, Direito das Obrigações, vol. 1, pag. 262 )."
 
+"se o cliente decidir contratar, terá de se sujeitar às cláusulas previamente determinadas por outrem, no exercício de um law making power de que este, de facto, desfruta, limitando-se aquele, pois, a aderir a um modelo prefixado\" (cfr. António Pinto Monteiro, Cláusula Penal e Indemnização, pag. 748;Meneses Cordeiro, Direito das Obrigações, pags. 96 e sgs;Vaz Serra, Obrigações, Ideias Preliminares, pags. 162 e sgs;Antunes Varela, Das Obrigações em Geral;Almeida Costa, Direito das Obrigações, pags. 196 e sgs;Mota Pinto, Contratos de Adesão, Revista de Direito e de Estudos Sociais, pags. 119 e sgs.)."
 ]
 # new_sentence = "Maria Guimarães, ob. cit., págs. 107 / 112)."
 
@@ -84,9 +86,9 @@ def grammaering(new_sentence):
         PAG_DOT: {<PAG><PUNC>?}
         VOL_DOT: {<VOL><PUNC>?}
         VOLS: {<VOL_DOT><NUM>((<PUNC>|<KC>)<NUM>)*}
-        PAGS: {<PAG_DOT><NUM>((<PUNC>|<KC>)<NUM>)*}
+        PAGS: {<PAG_DOT><NUM>((<PUNC>|<KC>)<NUM>)*(<KC><SGS>)?}
         OB_CIT: {<NOME><PUNC>*<NOME><PUNC>*<PAGS>}
-        REF: {<NOME><.*>*?<PAGS>} 
+        REF: {<NOME><.*>*?(<PAGS>|<SEP>)} 
     """
     #REF: {<NOME><.*>*<PAGS>}
     #REF: {<NOME><[^PAGS].*>*<PAGS>}
@@ -105,29 +107,32 @@ def grammaering(new_sentence):
     pags = []
     vols = []
     for subtree in result.subtrees():
-        if subtree.label() == 'PAGS':
-            for leaf in subtree.leaves():
-                if(leaf[1] == "NUM"):
-                    pags.append(leaf[0])
-        if subtree.label() == 'VOLS':
-            for leaf in subtree.leaves():
-                if(leaf[1] == "NUM"):
-                    vols.append(leaf[0])
-        if subtree.label() == "NOME":
-            author_names = []
-            for leaf in subtree.leaves():
-                author_names.append(leaf[0])
-            autor = " ".join(author_names)
-        if subtree.label() == "LIVRO":
-            print("Found livro!")
+        # if subtree.label() == 'PAGS':
+        #     for leaf in subtree.leaves():
+        #         if(leaf[1] == "NUM"):
+        #             pags.append(leaf[0])
+        # if subtree.label() == 'VOLS':
+        #     for leaf in subtree.leaves():
+        #         if(leaf[1] == "NUM"):
+        #             vols.append(leaf[0])
+        # if subtree.label() == "NOME":
+        #     author_names = []
+        #     for leaf in subtree.leaves():
+        #         author_names.append(leaf[0])
+        #     autor = " ".join(author_names)
+        # if subtree.label() == "LIVRO":
+        #     print("Found livro!")
         if subtree.label() == "REF":
-            print(subtree)
+            # print(subtree)
+            autor_flag = False
             for subtree2 in subtree.subtrees():
-                if subtree2.label() == "NOME":
+                if subtree2.label() == "NOME" and not autor_flag:
                     author_names = []
                     for leaf in subtree2.leaves():
                         author_names.append(leaf[0])
                     print("Autor: " + (" ".join(author_names)))
+                    autor_flag = True
+                    print("Obra: " + getBook(subtree))
                 if subtree2.label() == 'VOLS':
                     vols = []
                     for leaf in subtree2.leaves():
@@ -140,8 +145,38 @@ def grammaering(new_sentence):
                     for leaf in subtree2.leaves():
                         if (leaf[1] == "NUM"):
                             vols.append(leaf[0])
+                        if (leaf[1] == 'SGS'):
+                            vols.append('+')
                     print("Páginas: ", vols)
                     vols = []
+            print("-----##------")
+
+def getBook(subtreeOriginal):
+    autor_flag = False
+    book = ""
+    for subtree in subtreeOriginal:
+        if not isinstance(subtree, Tree):
+            if subtree[1] != 'PUNC' and subtree[1] != 'SEP':
+                book = book + subtree[0] + " "
+        elif subtree.label() == "NOME" and not autor_flag:
+            autor_flag = True #Salta o 1º
+        elif subtree.label() == 'VOLS' or subtree.label() == 'VOL_DOT':
+            vols = []
+        elif subtree.label() == 'PAGS' or subtree.label() == 'PAG_DOT':
+            pags = []
+        elif subtree.label() == 'PUNC' or subtree.label() == 'REF':
+            punc = []
+        else:
+            book = book + tree_to_str(subtree)
+    return book
+
+def tree_to_str(tree):
+    if isinstance(tree, tuple):
+        return tree[0]
+    string = ""
+    for subtree in tree:
+        string = string + tree_to_str(subtree) + " "
+    return string
 
     # try:
     #     print("Autor: ", autor)

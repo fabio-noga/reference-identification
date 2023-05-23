@@ -11,12 +11,13 @@ pag PAG
 pags PAG
 pág PAG
 págs PAG
+sgs SGS
 vol VOL
 / PUNC
 . PUNC
 , PUNC
 ( PUNC
 ) PUNC
-; PUNC
+; SEP
 Varela NPROP
 António NPROP

@@ -310,6 +310,18 @@ def getQuotesFromFileByNameFromList(filePath):
     a = tokenizer.tokenize(textoIntegralLimpo)
     return tokenizeByNameFromList(a)
 
+def getQuotesFromFileByNameFromListFinal(filePath):
+    fileData = open(filePath, mode='r', encoding='utf8', buffering=1)
+    data = json.load(fileData)
+    textoIntegralLimpo = cleanTokenizer(data)
+    punkt_param = PunktParameters()
+    punkt_param.abbrev_types = set(abbrev)
+    tokenizer = PunktSentenceTokenizer(punkt_param, lang_vars=CustomLanguageVars())
+    # a = sent_tokenize(textoIntegralLimpo)
+    a = tokenizer.tokenize(textoIntegralLimpo)
+    a = removeFakeNewLines(a)
+    return tokenizeByNameFromListFinal(a)
+
 def cleanTokenizer(data):
     textoIntegral = data["full_text"]
     textoIntegralLimpo = clearText(textoIntegral)
@@ -334,6 +346,28 @@ def cleanTokenizer(data):
 
     return textoIntegralLimpo
 
+def removeFakeNewLines(phrases):
+    for i, phrase in enumerate(phrases):
+        charCounter=0
+        for char in phrase:
+            if char == '(':
+                charCounter = charCounter + 1
+            if char == ')':
+                if charCounter != 0:
+                    charCounter = charCounter - 1
+        if charCounter != 0:
+            return removeFakeNewLines(merge_items(phrases, i, i+1))
+    return phrases
+
+def merge_items(array, index1, index2):
+    item1 = str(array[index1])
+    item2 = str(array[index2])
+
+    merged_item = str(item1 + item2)
+    array[index1] = merged_item
+    array.pop(index2)
+
+    return array
 
 def tokenizeByPatterns(tokenizer):
     data = []
@@ -462,6 +496,49 @@ def tokenizeByNameFromList(tokenizer):
                     break
         if not flag:
             data.append("TN?\tnot\t.\t" + phrase)
+    return data
+
+
+def tokenizeByNameFromListFinal(tokenizer):
+    input_file = "./assets/investigadores.txt"
+
+    names = []
+    with open(input_file, "r", encoding='utf-8') as f:
+        lines = f.readlines()
+        for line in lines:
+            line = line.strip('\n')
+            names.append(line)
+
+    data = []
+    for i, phrase in enumerate(tokenizer):
+
+        flag = False
+        if (len(phrase) < 5):
+            i = i - 1
+            continue
+        elif ("#Referências#" in phrase):
+            # print("#\t#\t Separação para Referências")
+            data.append("#\t#\t#\t Separação para Referências")
+            continue
+        elif (re.compile(r'[\[[0-9\/]+]').search(phrase)):
+            # print(str(i) + "\tbra\t.\t" + frase)
+            # print("bra\t.\t" + frase)
+            data.append("-\tbra\t.\t.\t" + phrase)
+            continue
+
+        for name in names:
+            if name in phrase:
+                lowerPhrase = phrase.lower()
+                for pattern in patterns:
+                    if re.search(pattern, lowerPhrase):
+                        flag = True
+                        data.append("TP?\tref\t|" + name + "|\t|" + pattern + "|\t" + phrase)
+                        break
+            if flag:
+                break
+
+        if not flag:
+            data.append("TN?\tnot\t.\t.\t" + phrase)
     return data
 
 def tokenizeByNameInvestigadores(tokenizer):

@@ -113,6 +113,22 @@ def createQuotesForOne():
         exit()
     print("File " + title + " created successfully")
 
+def createQuotesForOneFinal():
+    file = "doc_07B1295.json"
+    data = Utils.getQuotesFromFileByNameFromListFinal(os.path.join("verified", file))
+    try:
+        folder = "quotes_compare"
+        title = file
+        with open(folder + "/" + title + "6.txt", "w", encoding='utf-8') as outfile:
+            for line in data:
+                print(line)
+                outfile.write(line + "\n")
+    except:
+        print(data)
+        print("Error creating " + title, file=sys.stderr)
+        exit()
+    print("File " + title + " created successfully")
+
 def testQuotes():
     doc1 = {'link': '',
             'court': '',
@@ -245,6 +261,7 @@ def main():
           "6. Ver Quotes a partir de ficheiro\n" +
           "7. Criar ficheiros com quotes identificadas via keywords\n" +
           "8. Criar ficheiro unico com quotes identificadas via keywords\n" +
+          "9. Criar ficheiro unico com quotes identificadas via keywords - Versão Nomes seguido de padrão\n" +
           "94. Criar ficheiro CSV\n" +
           "95. Criar ficheiro CSV de todos os ficheiros verificados\n" +
           "96. Testar processamento de quotes\n" +
@@ -275,6 +292,8 @@ def main():
         createQuotesForAll()
     if option == "8":
         createQuotesForOne()
+    if option == "9":
+        createQuotesForOneFinal()
     if option == "95":
         saveQuotes()
     if option == "96":
