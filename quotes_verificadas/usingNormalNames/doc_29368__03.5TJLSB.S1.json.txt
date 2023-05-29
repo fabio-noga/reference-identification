@@ -1,6 +1,5 @@
-TN?	not	.	.	Acordam no Supremo Tribunal de Justiça: I. Relatório ASSOCIAÇÃO P. .
-TN?	not	.	.	A D. .
-TN?	not	.	.	, ao abrigo do disposto nos arts. 25º, 26º, nº 1, al. a) e 27º, nº 2 do Dec-Lei 446/85, de 25 de Outubro, na redacção dada pelos Dec-Lei 220/95, de 31 de Agosto e 249/99, de 7 Julho, intentou, a 14 de Julho de 2003, acção inibitória, contra BANCO C. .
+TN?	not	.	.	Acordam no Supremo Tribunal de Justiça: I) Relatório ASSOCIAÇÃO P. .
+TN?	not	.	.	A D).. D).. C).. , ao abrigo do disposto nos arts. 25º, 26º, nº 1, al. a) e 27º, nº 2 do Dec-Lei 446/85, de 25 de Outubro, na redacção dada pelos Dec-Lei 220/95, de 31 de Agosto e 249/99, de 7 Julho, intentou, a 14 de Julho de 2003, acção inibitória, contra BANCO C).. P. .
 TN?	not	.	.	., S.A., pedindo que o réu seja condenado a: a- abster-se de utilizar definitivamente as cláusulas contratuais gerais, que identifica;
 TN?	not	.	.	b- e dar publicidade a esta proibição, afixando o teor da sentença em todos os balcões das suas dependências, e nos jornais diários e semanários de maior tiragem no país.
 TN?	not	.	.	Estriba, essencialmente, esta sua pretensão no facto do banco réu vir a utilizar, na contratação com os seus clientes, cláusulas violadoras do regime jurídico das cláusulas contratuais gerais constantes do Dec-Lei 446/85.
@@ -13,7 +12,7 @@ TN?	not	.	.	Ainda irresignado, recorre novamente o réu, agora de revista para o
 TN?	not	.	.	E recorre subordinadamente a autora sustentando a nulidade de cláusula considerada válida no acórdão.
 TN?	not	.	.	Contra-alegou a autora em defesa da improcedência do recurso interposto pelo banco réu.
 TN?	not	.	.	*** Colhidos os vistos legais, cumpre apreciar e decidir.
-TN?	not	.	.	Âmbito dos recursos A- De acordo com as conclusões, a rematar as respectivas alegações, o inconformismo dos recorrentes radica, em síntese, no seguinte: recurso principal 1- As cláusulas que estabelecem que «O titular compromete-se a, após a sua adesão ao serviço de pagamentos MBNet, utilizar esses servidos de pagamentos em todas e quaisquer transacções que venha a efectuar em ambientes abertos (Internet, WAP, televisão interactiva, etc.) e, ao fazê-lo, reconhece-se devedor ao Banco dos valores registados electronicamente» tem duas partes distintas e só a última parte (em que se lê: «e, ao fazê-lo, reconhece-se devedor ao Banco dos valores registados electronicamente») pode, eventualmente, ser considerada violadora da norma que proíbe exclusão ou limitação da responsabilidade pelo não cumprimento definitivo, mora ou cumprimento defeituoso, em caso de dolo ou culpa grave.
+TN?	not	.	.	II) Âmbito dos recursos A- De acordo com as conclusões, a rematar as respectivas alegações, o inconformismo dos recorrentes radica, em síntese, no seguinte: recurso principal 1- As cláusulas que estabelecem que «O titular compromete-se a, após a sua adesão ao serviço de pagamentos MBNet, utilizar esses servidos de pagamentos em todas e quaisquer transacções que venha a efectuar em ambientes abertos (Internet, WAP, televisão interactiva, etc.) e, ao fazê-lo, reconhece-se devedor ao Banco dos valores registados electronicamente» tem duas partes distintas e só a última parte (em que se lê: «e, ao fazê-lo, reconhece-se devedor ao Banco dos valores registados electronicamente») pode, eventualmente, ser considerada violadora da norma que proíbe exclusão ou limitação da responsabilidade pelo não cumprimento definitivo, mora ou cumprimento defeituoso, em caso de dolo ou culpa grave.
 TN?	not	.	.	2- Ainda assim, esta parte das aludidas cláusulas não constitui uma exclusão ou limitação da responsabilidade pelo não cumprimento definitivo, mora ou cumprimento defeituoso, em caso de dolo ou culpa grave, pois não está em causa nestas cláusulas qualquer exclusão ou limitação de responsabilidade do emitente dos cartões, mas apenas o reconhecimento de que o titular do cartão, ao utilizar os serviços de pagamentos e ao efectuar transacções com o cartão em ambientes abertos assume a obrigação de reembolsar o emitente do cartão pelo valor de tais pagamentos ou transacções.
 TN?	not	.	.	3- Já a primeira parte dessas cláusulas estabelece, unicamente, uma obrigação para os titulares dos cartões, não constituindo qualquer exclusão ou limitação da responsabilidade pelo não cumprimento definitivo, mora ou cumprimento defeituoso.
 TN?	not	.	.	4- Por isso, o acórdão recorrido, ao condenar a recorrente a abster-se de utilizar as mesmas cláusulas com fundamento no disposto no art. 18°, al.c), do Dec-Lei 446/85, de 25 de Outubro, violou este preceito.
@@ -30,7 +29,7 @@ TN?	not	.	.	3- Tratando-se de um contrato de adesão cujo conteúdo, por defini�
 TN?	not	.	.	Tal contraria o princípio da boa fé.
 TN?	not	.	.	Por outro lado, tendo em conta a importância e gravidade das consequências que o funcionamento da cláusula pode acarretar para o consumidor tal cláusula deve ser-lhe comunicada expressamente e obtido o seu consentimento igualmente expresso.
 TN?	not	.	.	B- Face à posição dos recorrentes vertida nas conclusões das alegações, delimitativas do âmbito do recurso, as questões controvertidas suscitadas reconduzem-se a averiguar da validade ou não de quatro cláusulas inseridas nos contratos de adesão do banco réu.
-TN?	not	.	.	Fundamentação A- Os factos Foram dados como provados no acórdão recorrido os seguintes factos: 1- A autora é urna associação privada de utilidade pública, cujo objecto é a defesa dos direitos e interesses dos consumidores.
+TN?	not	.	.	III) Fundamentação A- Os factos Foram dados como provados no acórdão recorrido os seguintes factos: 1- A autora é urna associação privada de utilidade pública, cujo objecto é a defesa dos direitos e interesses dos consumidores.
 TN?	not	.	.	2- O réu uma sociedade comercial cujo objecto compreende a actividade bancária.
 TN?	not	.	.	3- O réu emitiu a proposta de cartão Nova Rede, modelo.
 TN?	not	.	.	MA, conforme exemplar do mesmo junto como documento nº 2, com a petição inicial, a fls. 39 e seguintes.
@@ -44,18 +43,18 @@ TN?	not	.	.	7- O réu emitiu e disponibilizou nos seus balcões a proposta de ca
 TN?	not	.	.	GR, conforme exemplar junto como documento n° 6, com a petição inicial, a fls. 49 e seguintes.
 TN?	not	.	.	8- O réu emitiu e disponibilizou nos seus balcões a proposta de cartão Atlântico, modelo.
 TN?	not	.	.	MA, conforme exemplar junto como documento n° 7, com a petição inicial, a fls. 51 e seguintes.
-TN?	not	.	.	9- O réu emitiu e disponibilizou nos seus balcões a proposta de cartão Banco C. .
+TN?	not	.	.	9- O réu emitiu e disponibilizou nos seus balcões a proposta de cartão Banco C).. P. .
 TN?	not	.	.	., modelo.
 TN?	not	.	.	MA, conforme exemplar junto como documento n° 8, com a petição inicial, a fls. 54 e seguintes.
 TN?	not	.	.	10- O réu emitiu a proposta de cartão American Express, modelo.
-TN?	not	.	.	/Banco C. .
+TN?	not	.	.	/Banco C).. P. .
 TN?	not	.	.	..., conforme exemplar junto como documento n° 9, com a petição inicial, a fls. 57 e seguintes.
 TN?	not	.	.	11- A proposta de cartão Nova Rede, referida em 3, é de difícil leitura, assim como a proposta de cartão Sottomayor, referida em 6 e o cartão American Express, descrito em 10.
 TN?	not	.	.	12- Em Junho de 2003, a proposta de cartão American Express, modelo.
-TN?	not	.	.	/Banco C. .
+TN?	not	.	.	/Banco C).. P. .
 TN?	not	.	.	..., encontrava-se disponível nos balcões da ré.
 TN?	not	.	.	13- A proposta de cartão American Express, modelo.
-TN?	not	.	.	/Banco C. .
+TN?	not	.	.	/Banco C).. P. .
 TN?	not	.	.	..., já não é utilizada pela ré, tendo sido substituída pelos juntos com a contestação como documentos n°s 1 e 2. 14- A proposta de cartão Nova Rede, modelo.
 TN?	not	.	.	MA, também já não se encontra em vigor, tendo sido substituída pelos cartões referidos em 4 e 5. B- O direito Tradicionalmente, a celebração de um contrato era precedida de uma discussão entre os pactuantes e subsequente acordo sobre os termos de cada uma das suas cláusulas.
 TN?	not	.	.	Mas com a criação e fortalecimento de grupos com grande poder económico, a oferta massificada de produtos foi-se diversificando e alargando e começaram a surgir no comércio jurídico os contratos já elaborados por um só dos contraentes, sem possibilidade de discussão do seu conteúdo.
@@ -79,9 +78,9 @@ TN?	not	.	.	Segundo o estatuído na al. g) do art. 21º do dec-lei 4465/85, as c
 TN?	not	.	.	Com esta cláusula o banco criou, nas transacções efectuadas em ambiente aberto, uma presunção de dívida relativamente aos valores registados electronicamente.
 TN?	not	.	.	De acordo com esta presunção imposta ao titular do cartão, decorre que, mesmo no caso da dívida real ser inferior à constante dos registos electrónicos, se não conseguir fazer essa prova se tem como assente que deve as quantias assinaladas electronicamente.
 TN?	not	.	.	Está-se a dar como assente que o registo informático faz prova bastante e suficiente da dívida, fazendo recair sobre o utente o dever de neutralizar essa prova.
-TN?	not	.	.	Sem esta presunção de dívida, incumbia ao banco credor alegar e demonstrar o montante efectivo do seu crédito, em conformidade com o estatuído no nº 1 do art. 342º C.Civil, já que de facto constitutivo do seu direito se trata.
-TN?	not	.	.	Por outro lado, o documento onde são registados os movimentos bancários é um documento particular, cuja força é livremente apreciada pelo tribunal -art. 366º C.Civil.
-TN?	not	.	.	Acresce que as especificidades destas operações e o facto de serem realizadas mediante a utilização de meios informáticos instalados pela instituição bancária emissora do cartão, meios esses que esta instituição controla e programa , nas palavras de Raquel Guimarães (2) , não possibilitam qualquer interferência do titular do cartão nessa mesma operação.
+TN?	not	.	.	Sem esta presunção de dívida, incumbia ao banco credor alegar e demonstrar o montante efectivo do seu crédito, em conformidade com o estatuído no nº 1 do art. 342º C)Civil, já que de facto constitutivo do seu direito se trata.
+TN?	not	.	.	Por outro lado, o documento onde são registados os movimentos bancários é um documento particular, cuja força é livremente apreciada pelo tribunal -art. 366º C)Civil.
+TP?	ref	|Raquel Guimarães|	|nas palavras de|	Acresce que as especificidades destas operações e o facto de serem realizadas mediante a utilização de meios informáticos instalados pela instituição bancária emissora do cartão, meios esses que esta instituição controla e programa , nas palavras de Raquel Guimarães (2) , não possibilitam qualquer interferência do titular do cartão nessa mesma operação.
 TN?	not	.	.	Por tudo isso, justifica-se a produção de provas nos termos gerais legalmente preconizados.
 TN?	not	.	.	E não será o facto deste sistema ser relativamente seguro (nunca o será de forma absoluta) que justifica a alteração da repartição do ónus da prova.
 TN?	not	.	.	A mencionada cláusula ao estabelecer uma presunção de dívida do titular do cartão nos termos apontados e ao conceder um valor absoluto ao registo electrónico, está a alterar os critérios de repartição do ónus da prova e a subtrair ao juiz a livre apreciação de um documento particular, o que a torna absolutamente proibida.
@@ -115,7 +114,7 @@ TN?	not	.	.	nos cartões de débito, uma franquia de 249 €;
 TN?	not	.	.	e garante o reembolso das transacções de valor superior a 2.493 €.
 TN?	not	.	.	Este clausulado não fere o equilíbrio contratual, estabelecendo uma distribuição do risco que se não configura desproporcionada, antes se apresentando como equitativa e, por outro lado, respeita as orientações emanadas do Banco de Portugal através do Aviso nº 11/2001.
 TN?	not	.	.	Assim como está em consonância com as orientações comunitárias neste campo que preconizam a repartição do risco de utilizações abusivas entre o emitente do cartão e o seu titular.
-TN?	not	.	.	E a distribuição do risco clausulada não conflitua com os princípios que emanam do nº 1 do art. 796º C.Civil, ao determinar que o risco corre por conta do dono da coisa, ou transposto este princípio para o depósito bancário, depositado o dinheiro a sua propriedade transfere-se para o depositário e o risco pelo seu desaparecimento corre por conta do banco.
+TN?	not	.	.	E a distribuição do risco clausulada não conflitua com os princípios que emanam do nº 1 do art. 796º C)Civil, ao determinar que o risco corre por conta do dono da coisa, ou transposto este princípio para o depósito bancário, depositado o dinheiro a sua propriedade transfere-se para o depositário e o risco pelo seu desaparecimento corre por conta do banco.
 TN?	not	.	.	Isto por que, ao lado do contrato de depósito, há um contrato de emissão e utilização do cartão, verdadeiro contrato autónomo (4)  Se o banco é dono do dinheiro depositado, também é verdade que o titular do cartão passa a poder dispor do dinheiro a todo o momento, como se estivesse directamente na sua disponibilidade, sem intervenção do banco.
 TN?	not	.	.	Como se refere no ac.
 TN?	not	.	.	S.T.J., de 00/10/12 (5), não se trata já do risco normal, a cargo do banco, relativamente ao desaparecimento do dinheiro directamente dos cofres daquele, v.g. por assalto à dependência bancária.
@@ -140,7 +139,7 @@ TN?	not	.	.	E a consequência daí decorrente, tal qual o débito fosse prontame
 TN?	not	.	.	A cada momento sabe, ou devia saber, que o plafon foi excedido e, como tal, que esse excesso será imediatamente debitado na respectiva conta.
 TN?	not	.	.	O contraente está perfeitamente inteirado das regras de utilização do cartão e sabe quais as consequências decorrentes da utilização do cartão quando efectue pagamentos ou levantamentos para além dos limites de crédito atribuídos.
 TN?	not	.	.	Daí que estas cláusulas não enfermem do vício da nulidade e, como tal, se tenham como inseridas nos contratos efectivos que nelas se baseiam.
-TN?	not	.	.	Decisão Perante o que exposto fica, acorda-se nos seguintes termos: a- julgar parcialmente procedente a revista do banco e, consequentemente revogar o acórdão recorrido… - … na parte em que declarou nula a 1ª parte da cláusula 6ª, al. o) dos docs. nºs 3 a 7 das cláusulas gerais;
+TN?	not	.	.	IV) Decisão Perante o que exposto fica, acorda-se nos seguintes termos: a- julgar parcialmente procedente a revista do banco e, consequentemente revogar o acórdão recorrido… - … na parte em que declarou nula a 1ª parte da cláusula 6ª, al. o) dos docs. nºs 3 a 7 das cláusulas gerais;
 TN?	not	.	.	- … assim como na parte em que declarou nula as cláusulas referentes ao extravio, furto ou roubo do cartão;
 TN?	not	.	.	b- confirmar, quanto ao mais, o mesmo acórdão;
 TN?	not	.	.	c- negar a revista da autora;
@@ -148,5 +147,5 @@ TN?	not	.	.	d- Condenar nas custas o banco recorrente, na proporção de metade,
 TN?	not	.	.	Lisboa, 15 de Outubro de 2009 Alberto Sobrinho (Relação) Maria dos Prazeres Pizarro Beleza Lázaro Faria.
 #	#	#	 Separação para Referências
 TP?	ref	|Antunes Varela|	| in |	1- cfr. sobre a questão exposta Antunes Varela, in Das Obrigações em Geral, I, pág. 251 e segs. 2- in As Transferências Electrónicas de Fundos e os Cartões de Débito, pág. 126.
-TN?	not	.	.	3- proc. nº 08B357, in www.dgsi.pt/jstj 4- cfr., neste sentido, Raquel Guimarães, ob. cit., pág. 107 e já citado ac.
-TN?	not	.	.	S.T.J., de 99/11/23 5- in C.J.,VIII-3º,67 6- cfr. ac. proferido no citado processo nº 08B357 7- in Cláusulas Contratuais Gerais e Directiva sobre Cláusulas Abusivas, 2ª ed., pág. 234
+TP?	ref	|Raquel Guimarães|	| in |	3- proc. nº 08B357, in www.dgsi.pt/jstj 4- cfr., neste sentido, Raquel Guimarães, ob. cit., pág. 107 e já citado ac.
+TN?	not	.	.	S.T.J., de 99/11/23 5- in C)J.,VIII-3º,67 6- cfr. ac. proferido no citado processo nº 08B357 7- in Cláusulas Contratuais Gerais e Directiva sobre Cláusulas Abusivas, 2ª ed., pág. 234

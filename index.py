@@ -79,8 +79,11 @@ def seeQuotes():
     for line in data:
         print(line)
 
+import time
 def createQuotesForAll():
-    for file in os.listdir("verified"):
+    start_time = time.time()
+    time_after_block_prev = start_time
+    for i, file in enumerate(os.listdir("verified")):
         # data = Utils.getQuotesFromFileByPattern(os.path.join("verified", file))
         data = Utils.getQuotesFromFileByNameFromListFinal(os.path.join("verified", file))
         try:
@@ -88,23 +91,31 @@ def createQuotesForAll():
             title = file
             with open(folder + "/" + title + ".txt", "w", encoding='utf-8') as outfile:
                 for line in data:
-                    print(line)
+                    # print(line)
                     outfile.write(line+"\n")
+            time_after_block_cur = time.time()
+            elapsed_time_block_cur = time_after_block_cur - time_after_block_prev
+            print(f"Time after code block {i+1}: {elapsed_time_block_cur} seconds")
+            time_after_block_prev = time_after_block_cur
         except:
             print(data)
             print("Error creating " + title, file=sys.stderr)
             exit()
-        print("File " + title + " created successfully")
+        # print("File " + title + " created successfully")
         # return data
         # Utils._saveData2("quotes_verificadas", file, data)
 
+    end_time = time.time()
+    # Total elapsed time
+    total_elapsed_time = end_time - start_time
+    print(f"Overall elapsed time: {total_elapsed_time} seconds")
 def createQuotesForOne():
-    file = "doc_07B1295.json"
+    file = "doc_99A796.json"
     data = Utils.getQuotesFromFileByNameFromList(os.path.join("verified", file))
     try:
         folder = "quotes_compare"
         title = file
-        with open(folder + "/" + title + "5.txt", "w", encoding='utf-8') as outfile:
+        with open(folder + "/" + title + "8.txt", "w", encoding='utf-8') as outfile:
             for line in data:
                 print(line)
                 outfile.write(line + "\n")
@@ -115,12 +126,13 @@ def createQuotesForOne():
     print("File " + title + " created successfully")
 
 def createQuotesForOneFinal():
-    file = "doc_07B1295.json"
+    # file = "doc_07B1295.json"
+    file = "doc_99A796.json"
     data = Utils.getQuotesFromFileByNameFromListFinal(os.path.join("verified", file))
     try:
         folder = "quotes_compare"
         title = file
-        with open(folder + "/" + title + "6.txt", "w", encoding='utf-8') as outfile:
+        with open(folder + "/" + title + "8.txt", "w", encoding='utf-8') as outfile:
             for line in data:
                 print(line)
                 outfile.write(line + "\n")
@@ -280,8 +292,8 @@ def main():
     if option == "3":
         link_list = Utils.fileToArray("assets/citacoesVerificadas.txt")
         for link in link_list:
-            jsonString = json.dumps(Grabber.getData(link), indent=4, ensure_ascii=False)
-            jsonObject = Utils.makeSchema(jsonString)
+            jsonString = json.dumps(Grabber.getDataFromLink(link), indent=4, ensure_ascii=False)
+            jsonObject = Utils.createJsonSchemaFromRawSchema(jsonString)
             DbUtils.insert(jsonObject)
     if option == "4":
         testQuotes()

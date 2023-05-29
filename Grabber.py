@@ -12,7 +12,7 @@ headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36'}
 
 
-def getData(link):
+def getDataFromLink(link):
     session = HTMLSession()
     response = session.get(link, headers=headers)
     response.html.encoding = 'ISO-8859-1'
@@ -72,11 +72,11 @@ def getMultipleFromMainPage():
     i = 0
     for link in links:
         print("Working on: " + url + link)
-        Utils.saveData("jsons", Utils.makeSchema(getData(url + link)))
+        Utils.saveData("jsons", Utils.createJsonSchemaFromRawSchema(getDataFromLink(url + link)))
         i += 1
 
 
 def getFromList(list):
     print(list)
     for link in list:
-        Utils.saveData("verified", Utils.makeSchema(getData(link)))
+        Utils.saveData("verified", Utils.createJsonSchemaFromRawSchema(getDataFromLink(link)))

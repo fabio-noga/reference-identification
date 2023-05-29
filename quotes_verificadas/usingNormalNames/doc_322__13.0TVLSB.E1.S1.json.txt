@@ -1,4 +1,4 @@
-TN?	not	.	.	Acordam no Supremo Tribunal de Justiça: I. Relatório 1. AA propôs a presente ação declarativa, sob a forma ordinária, contra BB , pedindo que seja declarada nula a escritura de partilhas entre ambos celebrada em 20.02.2006 ou, em alternativa, que o réu seja condenado a pagar-lhe a quantia de €193.485,36 a título de tornas para igualação da partilha.
+TN?	not	.	.	Acordam no Supremo Tribunal de Justiça: I) Relatório 1. AA propôs a presente ação declarativa, sob a forma ordinária, contra BB , pedindo que seja declarada nula a escritura de partilhas entre ambos celebrada em 20.02.2006 ou, em alternativa, que o réu seja condenado a pagar-lhe a quantia de €193.485,36 a título de tornas para igualação da partilha.
 TN?	not	.	.	Alega que: - Autora e Réu foram casados um com o outro, casamento que cessou por divórcio;
 TN?	not	.	.	- Sofreu maus tratos infligidos pelo Réu durante o casamento e que padeceu de perturbação depressiva e consumo excessivo de álcool;
 TN?	not	.	.	- Foi num momento de intensa depressão e demência que assinou os documentos no escritório do advogado, continuando a ser ameaçada para assinar a escritura de partilhas, o que fez;
@@ -17,27 +17,21 @@ TN?	not	.	.	6. Realizou-se a audiência final, na sequência da qual foi proferi
 TN?	not	.	.	7. Inconformada com esta decisão, a Autora interpôs recurso de apelação.
 TN?	not	.	.	8. O Tribunal da Relação.
 TN?	not	.	.	veio a julgar improcedente o recurso.
-TN?	not	.	.	9. Novamente inconformada, a Autora veio interpor recurso de revista (recurso de revista que foi admitido pela formação de Juízes a que alude o n.º 3 do artigo 672.º do Código de Processo Civil), formulando as seguintes (transcritas) conclusões (excluindo-se as conclusões relacionadas com a admissão da revista excecional): 23.ª Para que se obtenha a declaração de nulidade de uma determinada estipulação negocial por violação do artigo 1730º do C.C.
-TN?	not	.	.	não é necessário que concorram outros vícios, nomeadamente falta ou vícios da vontade.
-TN?	not	.	.	24.ª Mesmo no caso de contrato de partilhas de bens comuns do casal livremente, celebrado na forma da Lei, a parte que posteriormente entenda que foi violado o artigo 1730º do C.C.
-TN?	not	.	.	e pretenda que o contrato seja declarado nulo apenas tem de alegar e provar que a participação de cada um dos cônjuges por metade no activo e no passivo não foi respeitada.
-TN?	not	.	.	25.ª Mesmo nos casos em que seja manifesto que existe desproporção entre o que cada um dos ex-cônjuges obtém na partilha deve ser aplicado diretamente o art.1730º do C.C.
-TN?	not	.	.	e declarada a nulidade dessa partilha não havendo qualquer recurso à figura da fraude à lei e ao artigo 280º do C.C.
-TN?	not	.	.	26.ª O princípio da segurança jurídica claudica perante o princípio da Justiça neste caso concreto, para mais quando o que se pede é a conversão do negócio e o pagamento pelo ex-cônjuge de uma quantia a fim de igualar a partilha.
+TN?	not	.	.	9. Novamente inconformada, a Autora veio interpor recurso de revista (recurso de revista que foi admitido pela formação de Juízes a que alude o n.º 3 do artigo 672.º do Código de Processo Civil), formulando as seguintes (transcritas) conclusões (excluindo-se as conclusões relacionadas com a admissão da revista excecional): 23.ª Para que se obtenha a declaração de nulidade de uma determinada estipulação negocial por violação do artigo 1730º do C)C) não é necessário que concorram outros vícios, nomeadamente falta ou vícios da vontade.
+TN?	not	.	.	24.ª Mesmo no caso de contrato de partilhas de bens comuns do casal livremente, celebrado na forma da Lei, a parte que posteriormente entenda que foi violado o artigo 1730º do C)C) e pretenda que o contrato seja declarado nulo apenas tem de alegar e provar que a participação de cada um dos cônjuges por metade no activo e no passivo não foi respeitada.
+TN?	not	.	.	25.ª Mesmo nos casos em que seja manifesto que existe desproporção entre o que cada um dos ex-cônjuges obtém na partilha deve ser aplicado diretamente o art.1730º do C)C) e declarada a nulidade dessa partilha não havendo qualquer recurso à figura da fraude à lei e ao artigo 280º do C)C) 26.ª O princípio da segurança jurídica claudica perante o princípio da Justiça neste caso concreto, para mais quando o que se pede é a conversão do negócio e o pagamento pelo ex-cônjuge de uma quantia a fim de igualar a partilha.
 TN?	not	.	.	27.ª Uma escritura de partilhas de bens comuns do casal em que sejam adjudicados a um dos ex-cônjuges € 288.431,72 e ao outro apenas € 200.000,00 viola indubitavelmente a regra da participação por metade no activo e no passivo da comunhão prevista no artigo 1730º do Cód.
 TN?	not	.	.	Civil.
 TN?	not	.	.	28.ª Tendo ficado provado que na escritura de partilhas impugnada nesta acção o ora recorrido levou a mais € 88.431,72 do que a recorrente existe uma desproporção considerável e atendível.
 TN?	not	.	.	29.ª E há manifesta desproporção entre o que é atribuído a cada ex-cônjuge na partilha se o imóvel que foi adjudicado a um deles foi o único que teve um valor atribuído superior ao valor patrimonial tributário sendo todos os outros bens imóveis adjudicados ao outro ex-cônjuge por valores iguais aos tributários.
-TN?	not	.	.	30.ª Por violação do estatuído no artigo 1730º do C.C.
-TN?	not	.	.	a escritura de partilhas de bens comuns do casal celebrada pelas partes em 20.02.2006 é nula.
+TN?	not	.	.	30.ª Por violação do estatuído no artigo 1730º do C)C) a escritura de partilhas de bens comuns do casal celebrada pelas partes em 20.02.2006 é nula.
 TN?	not	.	.	31.ª Sendo nula a partilha, como pedido pela A., poderá a mesma ser convertida, nos termos do artigo 293º do Cód.
 TN?	not	.	.	Civil, num negócio com conteúdo diferente.
 TN?	not	.	.	Com efeito, o fim prosseguido pelas partes, a partilha dos bens do dissolvido casal, permite supor que elas teriam querido alterar o conteúdo do negócio se tivessem previsto a invalidade.
-TN?	not	.	.	32.ª Pode ainda ser considerado que a partilha realizada pelas partes nesta acção apenas é parcialmente inválida sendo de aplicar o artigo 292º do C.C., como fez o acórdão fundamento do S.T.J.
+TN?	not	.	.	32.ª Pode ainda ser considerado que a partilha realizada pelas partes nesta acção apenas é parcialmente inválida sendo de aplicar o artigo 292º do C)C), como fez o acórdão fundamento do S.T.J.
 TN?	not	.	.	relatado pelo Juiz Conselheiro Salazar Casanova.
 TN?	not	.	.	33.ª A forma de respeitar a partilha igualitária dos bens do casal passará pela condenação do Recorrente a entregar à Recorrida metade da verba que levou a mais, ou seja, condenado a pagar a quantia de € 44.215,86 a título de tornas.
-TN?	not	.	.	34.ª Por ter violado o que dispõe o artigo 1730º do C.C.
-TN?	not	.	.	deve o douto acórdão recorrido ser anulado e substituído por um outro que condene o recorrido a pagar à recorrente a quantia de € 44.215,86 (quarenta e quatro mil duzentos e quinze euros e oitenta e seis cêntimos), acrescida de juros legais à taxa legal supletiva desde a data da partilha até pagamento, a título de tornas para igualação da partilha.
+TN?	not	.	.	34.ª Por ter violado o que dispõe o artigo 1730º do C)C) deve o douto acórdão recorrido ser anulado e substituído por um outro que condene o recorrido a pagar à recorrente a quantia de € 44.215,86 (quarenta e quatro mil duzentos e quinze euros e oitenta e seis cêntimos), acrescida de juros legais à taxa legal supletiva desde a data da partilha até pagamento, a título de tornas para igualação da partilha.
 TN?	not	.	.	O Réu contra-alegou, impugnando a admissibilidade do recurso de revista (quer normal quer excecional) e pugnando pelo infundado da revista, formulando as seguintes (transcritas) conclusões (excluindo-se as relativas à admissibilidade do recurso de revista): 28.ª Vem a recorrente, novamente, peticionar pela nulidade da partilha de bens imóveis por violação do artigo 1730.º, n.º 1, do Código Civil.
 TN?	not	.	.	29.ª Resulta do referido preceito que os cônjuges não podem determinar quais os bens que integram ou não a comunhão, nem podem determinar uma proporção diversa da metade para cada um dos cônjuges.
 TN?	not	.	.	30.ª Podem, no entanto, acordar livremente os bens que lhes são adjudicados e o valor a atribuir aos mesmos.
@@ -45,16 +39,14 @@ TN?	not	.	.	31.ª Ora, no caso concreto as partes, por acordo, livremente e de b
 TN?	not	.	.	32.ª Não tendo havido tal falta ou vício da vontade, o n.º 1 do artigo 1730.º CC não pode ser interpretado no sentido de legitimar a destruição de um negócio livremente celebrado com fundamento numa reavaliação dos bens partilhados ou prometidos partilhar.
 TN?	not	.	.	33.ª Em momento de conclusões, refere a recorrente: "28- Tendo ficado provado que na escritura de partilhas impugnada nesta acção o ora recorrido levou a mais € 88.431,72 do que a recorrente existe uma desproporção considerável e atendível."
 TN?	not	.	.	34.ª Ao contrário do que sustenta nada ficou provado (!) Sendo que, salvo melhor entendimento, a provar a totalidade dos bens comuns do casal é essencial para se aferir se foi ou não violada a regra disposta no 1730.º do Código Civil.
-TN?	not	.	.	35.ª Cabia à Autora fazer prova da totalidade do património, do valor real dos imóveis à data dos factos e, consequentemente, que a escritura de partilha era nula por violação do disposto no art.º 1730.º do CC.
-TN?	not	.	.	O que não fez.
+TN?	not	.	.	35.ª Cabia à Autora fazer prova da totalidade do património, do valor real dos imóveis à data dos factos e, consequentemente, que a escritura de partilha era nula por violação do disposto no art.º 1730.º do CC) O que não fez.
 TN?	not	.	.	36.ª No caso em apreço, o Tribunal não dispunha de elementos de prova suficientes para aferir se os bens ali partilhados eram ou não os únicos bens comuns do casal.
 TN?	not	.	.	Veja-se, de resto, que, como resultou provado - factos 6. e 8 - as partes dispunham de mais património comum do que o referido em escritura de partilha outorgada a 20.02.2016.
-TN?	not	.	.	37.ª Sem necessidade de mais considerações, o recorrido concorda com o doutamente decidido na 1.ª Instância e mantido no Acórdão sob recurso de que inexiste qualquer violação da regra imperativa do art.º 1730.º do CC.
-TN?	not	.	.	E conclui: "deve o presente recurso ser julgado improcedente, confirmando-se a sentença recorrida".
+TN?	not	.	.	37.ª Sem necessidade de mais considerações, o recorrido concorda com o doutamente decidido na 1.ª Instância e mantido no Acórdão sob recurso de que inexiste qualquer violação da regra imperativa do art.º 1730.º do CC) E conclui: "deve o presente recurso ser julgado improcedente, confirmando-se a sentença recorrida".
 TN?	not	.	.	Cumpre apreciar e decidir.
-TN?	not	.	.	Delimitação do objeto do recurso Como é jurisprudência sedimentada, e em conformidade com o disposto nos artigos 635º, nº 4, e 639º, nºs 1 e 2, ambos do Código de Processo Civil, o objeto do recurso é delimitado em função das conclusões formuladas pelo recorrente, pelo que, dentro dos preditos parâmetros, da leitura das conclusões recursórias formuladas pela A.
+TN?	not	.	.	II) Delimitação do objeto do recurso Como é jurisprudência sedimentada, e em conformidade com o disposto nos artigos 635º, nº 4, e 639º, nºs 1 e 2, ambos do Código de Processo Civil, o objeto do recurso é delimitado em função das conclusões formuladas pelo recorrente, pelo que, dentro dos preditos parâmetros, da leitura das conclusões recursórias formuladas pela A.
 TN?	not	.	.	/ ora Recorrente decorre que o objeto do presente recurso está circunscrito à questão de saber se os ex-cônjuges poderão, à luz do disposto no artigo 1730.º, n.º,1 do Código Civil, acordar numa partilha dos bens imóveis comuns que se revela desigual do ponto de vista do seu valor de mercado, ainda que equivalente sob a perspetiva dos valores por aqueles atribuídos a tais bens.
-TN?	not	.	.	Fundamentação 1. As instâncias deram como provados os seguintes factos: 1.1.
+TN?	not	.	.	III) Fundamentação 1. As instâncias deram como provados os seguintes factos: 1.1.
 TN?	not	.	.	A autora contraiu com o réu em 03.01.1971, conforme resulta de certidão de assento de casamento que no mais se dá por integrada e reproduzida, "casamento: católico, sem convenção antenupcial" - cfr. certidão de fls. 765/766 que se dá por integrada e reproduzida.
 TN?	not	.	.	O casamento referido em 1. foi dissolvido por divórcio por decisão de 21.12.2004, transitada na mesma data.
 TN?	not	.	.	Autora e réu outorgaram por escritura pública denominada "Partilha" da qual, entre o mais que se dá por integrado e reproduzido, resulta: "No dia vinte de Fevereiro de dois mil e seis, no Cartório Notarial de.
@@ -129,8 +121,7 @@ TN?	not	.	.	, descrito na Conservatória do Registo Predial.
 TN?	not	.	.	sob o número.
 TN?	not	.	.	87 da dita freguesia, inscrito na matriz predial rústica sob o artigo.
 TN?	not	.	.	23, secção LQ, com o valor patrimonial tributário para efeitos de IMI de €476,21 e para efeitos de IMT, correspondente à propriedade de raiz de 845,75€, a que é atribuído igual valor.
-TN?	not	.	.	(…) Verba doze: propriedade de raiz do prédio rústico sito ou denominado L. .
-TN?	not	.	.	.,.., concelho de.
+TN?	not	.	.	(…) Verba doze: propriedade de raiz do prédio rústico sito ou denominado L)..,.., concelho de.
 TN?	not	.	.	, descrito na Conservatória do Registo Predial.
 TN?	not	.	.	sob o número.89.
 TN?	not	.	.	da dita freguesia, inscrito na matriz predial rústica sob o artigo.
@@ -261,18 +252,18 @@ TN?	not	.	.	, com o valor patrimonial de €560,47.
 TN?	not	.	.	Verba n.º 9 Prédio rústico sito em.
 TN?	not	.	.	,.., concelho de.
 TN?	not	.	.	, descrito na Conservatória do Registo Predial.
-TN?	not	.	.	sob o n.º.…73 e inscrito na matriz (…) sob o artigo.
+TN?	not	.	.	sob o n.º)…73 e inscrito na matriz (…) sob o artigo.
 TN?	not	.	.	16 da secção LQ, com o valor patrimonial de €178,89.
 TN?	not	.	.	Verba n.º 10 Prédio rústico sito em.
 TN?	not	.	.	,.., concelho de.
 TN?	not	.	.	, descrito na Conservatória do Registo Predial.
-TN?	not	.	.	sob o n.º.…74 e inscrito na matriz (…) sob o artigo.
+TN?	not	.	.	sob o n.º)…74 e inscrito na matriz (…) sob o artigo.
 TN?	not	.	.	97, da secção.
 TN?	not	.	.	, com o valor patrimonial de €347,19.
 TN?	not	.	.	Verba n.º 11 Prédio rústico sito em.
 TN?	not	.	.	,.., concelho de.
 TN?	not	.	.	, descrito na Conservatória do Registo Predial.
-TN?	not	.	.	sob o n.º....87 e inscrito na matriz (…) sob o artigo.
+TN?	not	.	.	sob o n.º)...87 e inscrito na matriz (…) sob o artigo.
 TN?	not	.	.	23, da secção LQ, com o valor patrimonial de €476,21.
 TN?	not	.	.	Verba n.º 12 Prédio rústico sito em.
 TN?	not	.	.	,.., concelho de.
@@ -282,7 +273,7 @@ TN?	not	.	.	15, da secção LP, com o valor patrimonial de €638,00.
 TN?	not	.	.	Verba n.º 13 Prédio rústico sito em.
 TN?	not	.	.	-..,.., concelho de.
 TN?	not	.	.	, descrito na Conservatória do Registo Predial.
-TN?	not	.	.	sob o n.º.…90 e inscrito na matriz (…) sob o artigo.
+TN?	not	.	.	sob o n.º)…90 e inscrito na matriz (…) sob o artigo.
 TN?	not	.	.	21, da secção LP, com o valor patrimonial de €236,07.
 TN?	not	.	.	Verba n.º 14 Prédio rústico sito em.
 TN?	not	.	.	-..,.., concelho de.
@@ -340,16 +331,16 @@ TN?	not	.	.	A Recorrente insiste que a regra contida no n.º 1 do artigo 1730.º
 TN?	not	.	.	Vejamos.
 TN?	not	.	.	Prescreve o artigo 1730.º do Código Civil que: 1. Os cônjuges participam por metade no ativo e no passivo da comunhão, sendo nula qualquer estipulação em sentido diverso.
 TN?	not	.	.	2. A regra da metade não impede que cada um dos cônjuges faça em favor de terceiro doações ou deixas por conta da sua meação nos bens comuns, nos termos permitidos por lei.
-TN?	not	.	.	Em anotação a esta disposição legal, escreve Remédio Marques que "A regra (a «regra da metade») prevista nesta norma respeita à posição jurídica dos cônjuges na massa patrimonial, tendencialmente autónoma denominada bens comuns, constituída a partir da celebração dos casamentos nos regimes de comunhão de adquiridos e comunhão geral … A norma traduz, de igual sorte, a ideia veiculada no CC desde a Reforma de 1977, de harmonia com a qual o princípio da igualdade entre os cônjuges - também na dimensão dos direitos e deveres patrimoniais - vigora de uma forma praticamente absoluta, não admitindo derrogações ou admitindo-as de uma forma muito reduzida.
+TP?	ref	|Remédio Marques|	| escreve |	Em anotação a esta disposição legal, escreve Remédio Marques que "A regra (a «regra da metade») prevista nesta norma respeita à posição jurídica dos cônjuges na massa patrimonial, tendencialmente autónoma denominada bens comuns, constituída a partir da celebração dos casamentos nos regimes de comunhão de adquiridos e comunhão geral … A norma traduz, de igual sorte, a ideia veiculada no CC desde a Reforma de 1977, de harmonia com a qual o princípio da igualdade entre os cônjuges - também na dimensão dos direitos e deveres patrimoniais - vigora de uma forma praticamente absoluta, não admitindo derrogações ou admitindo-as de uma forma muito reduzida.
 TN?	not	.	.	Esta regra atua quando se pretende dissolver um património posto em comum, tanto na antecâmara da dissolução do vínculo conjugal (ou do seu relaxamento com a separação de pessoas e bens) - daí a realização de contratos-promessa de partilha de bens comuns -, quanto após a sua dissolução do casamento ou depois do decretamento da separação de pessoas e bens, ou seja, a partilha subsequente dos bens comuns.
 TN?	not	.	.	(…) a influência desta «regra da metade» projeta-se, igualmente, nas relações patrimoniais internas havidas entre os cônjuges, mesmo antes da dissolução do casamento.
 TN?	not	.	.	Por exemplo, embora seja válido o contrato-promessa de partilha de bens comuns celebrado na constância do casamento (mas na iminência de um divórcio), o mesmo será nulo se violar esta regra, na medida em que atribua a um dos cônjuges quotas de bens manifestamente desproporcionais relativamente ao outro cônjuge".
-TP?	ref	|Guilherme de Oliveira|	| p\. |	(Código Civil Anotado, Livro IV, Direito da Família, Coordenação de Clara Sottomayor, Almedina, 2020, pp. 444/445) A norma constante do artigo 1730.º, n.º 1, do Código Civil consagra uma regra imperativa cuja "ratio" reside na proteção de cada um dos cônjuges contra o risco de aproveitamento do ascendente psicológico eventualmente adquirido sobre o outro para lograr uma distribuição mais vantajosa do património [cf. Guilherme de Oliveira, "Sobre o contrato-promessa de partilha de bens comuns (Anotação ao Acórdão da Relação de Coimbra, de 28/11/95)", Revista de Legislação e de Jurisprudência , ano 129, 1996/7, Coimbra, Coimbra Editora, p. 286].
+-	bra	.	.	(Código Civil Anotado, Livro IV, Direito da Família, Coordenação de Clara Sottomayor, Almedina, 2020, pp. 444/445) A norma constante do artigo 1730.º, n.º 1, do Código Civil consagra uma regra imperativa cuja "ratio" reside na proteção de cada um dos cônjuges contra o risco de aproveitamento do ascendente psicológico eventualmente adquirido sobre o outro para lograr uma distribuição mais vantajosa do património [cf. Guilherme de Oliveira, "Sobre o contrato-promessa de partilha de bens comuns (Anotação ao Acórdão da Relação de Coimbra, de 28/11/95)", Revista de Legislação e de Jurisprudência , ano 129, 1996/7, Coimbra, Coimbra Editora, p. 286].
 TN?	not	.	.	O autor tece estas considerações respeito de um contrato-promessa de partilha e não de um contrato de partilha, mas as mesmas mantêm a validade para este último.
-TP?	ref	|Guilherme de Oliveira|	| p\. |	No entanto, como Guilherme de Oliveira também sublinha ("Sobre o contrato-promessa de partilha..., cit., p. 286), a regra da metade visa igualmente tutelar o interesse de terceiros - os credores pessoais de cada cônjuge -, que adquiriram a legítima expectativa de que a quota de cada um dos cônjuges apresentaria um valor igualitário e, por outro lado, de que o regime de bens convencionado ou fixado por lei permaneceria inalterado.
+TP?	ref	|Guilherme Oliveira|	| p\. |	No entanto, como Guilherme de Oliveira também sublinha ("Sobre o contrato-promessa de partilha..., cit., p. 286), a regra da metade visa igualmente tutelar o interesse de terceiros - os credores pessoais de cada cônjuge -, que adquiriram a legítima expectativa de que a quota de cada um dos cônjuges apresentaria um valor igualitário e, por outro lado, de que o regime de bens convencionado ou fixado por lei permaneceria inalterado.
 TN?	not	.	.	Como nota o acórdão do Tribunal da Relação de Guimarães de 07-02-2019, processo número 234/17.9T8VLN.G1, relatado por Conceição Sampaio, " estes fundamentos são os mesmos pelos quais são considerados nulos os acordos de partilha de bens em violação do princípio da imutabilidade do regime de bens do casamento (art. 1714° do Código Civil)."
-TP?	ref	|Guilherme de Oliveira|	| p\. |	Por outra banda, tal acordo desigual poderia servir para esconder doações que o cônjuge prejudicado faz ao outro, contra o estatuído no art. 1764.º/1 do Código Civil (cfr. Guilherme de Oliveira, Manual de Direito da Família , 2.ª edição, Coimbra, Almedina, 2021, p. 219).
-TP?	ref	|Helena Mota|	| p\. |	Do mesmo modo, Rute Teixeira Pedro, "Do exercício da autonomia privada na partilha do património comum do casal", Autonomia e heteronomia no Direito da Família e no Direito das Sucessões , coordenação de Helena Mota e Maria Raquel Guimarães, Coimbra, Almedina, 2016, p. 354-555, dá conta que, de acordo com o entendimento formal estrito da regra da metade que tem vindo a ser seguido, resultam interditos todos os acordos que se desviem de tal regra, ainda que firmados com o objetivo "da prossecução de um cumprimento material da igualdade entre os cônjuges no que respeita à repartição, ex post facto , das vantagens e desvantagens patrimoniais associadas à relação matrimonial dissolvida".
+TN?	not	.	.	Por outra banda, tal acordo desigual poderia servir para esconder doações que o cônjuge prejudicado faz ao outro, contra o estatuído no art. 1764.º/1 do Código Civil (cfr. Guilherme de Oliveira, Manual de Direito da Família , 2.ª edição, Coimbra, Almedina, 2021, p. 219).
+TP?	ref	|Rute Teixeira|	| p\. |	Do mesmo modo, Rute Teixeira Pedro, "Do exercício da autonomia privada na partilha do património comum do casal", Autonomia e heteronomia no Direito da Família e no Direito das Sucessões , coordenação de Helena Mota e Maria Raquel Guimarães, Coimbra, Almedina, 2016, p. 354-555, dá conta que, de acordo com o entendimento formal estrito da regra da metade que tem vindo a ser seguido, resultam interditos todos os acordos que se desviem de tal regra, ainda que firmados com o objetivo "da prossecução de um cumprimento material da igualdade entre os cônjuges no que respeita à repartição, ex post facto , das vantagens e desvantagens patrimoniais associadas à relação matrimonial dissolvida".
 TN?	not	.	.	Por outro lado, constitui jurisprudência pacífica no STJ que a regra da metade prevista no artigo 1730.º, n.º 1, do Código Civil conhece aplicação, não apenas em sede de convenção antenupcial, mas igualmente nos casos de acordos celebrados entre os ex-consortes atinentes à fixação da quota que há-se caber a cada um na sequência da partilha adveniente da dissolução do casamento por divórcio e o caráter imperativo da norma prevista no n.º1 do artigo 1730.º do Código Civil, assim como a necessidade de a partilha extrajudicial conter os elementos necessários à aferição da observância de tal regra, não sendo necessário para que se decrete a nulidade a existência de vícios de vontade ou a existência de fraude à lei.
 TN?	not	.	.	(cf. Acórdão do STJ, de 8/01/2015 - processo n.º 991/10.3TBESP.P1.S1 -) Ora, a inderrogabilidade inerente à natureza imperativa da norma do artigo 1730.º, n.º 1, do Código Civil justifica a restrição heterónoma da liberdade contratual dos ex-cônjuges (na vertente da liberdade de conformação do conteúdo da partilha extrajudicial), obstando a que os mesmos concretizem uma partilha materialmente desigual do património comum através da subvalorização dos bens a partilhar destinada a conferir a aparência de uma divisão formalmente igualitária.
 TN?	not	.	.	No caso presente: Verifica-se uma discrepância entre o valor de mercado dos bens imóveis objeto de partilha e o valor que aos mesmos foi atribuído pelas partes em sede de contrato de partilha extrajudicial.
@@ -359,6 +350,6 @@ TN?	not	.	.	Ainda que os bens imóveis não esgotem o acervo de bens comuns (int
 TN?	not	.	.	De todo o modo, ainda que não manifesta , a desproporção verificada deverá ter-se como ilícita, à luz do preceituado no artigo 1730.º, n.º 1, do Código Civil, que contém uma norma imperativa (daí que para decretar a nulidade basta a violação desta norma imperativa, sem que se torne necessário o recurso aos vícios da vontade dos outorgantes).
 TN?	not	.	.	Deste modo, temos de concluir pela nulidade do contrato de partilha extrajudicial, por violação da regra imperativa da metade, com a sequente revogação do acórdão recorrido e procedência parcial do recurso interposto.
 TN?	not	.	.	Isto porque não se crê ser possível atribuir à Recorrente a quantia de €44 215,86 reclamada a título de tornas, uma vez que, subsistindo outros bens comuns suscetíveis de ser contabilizados na partilha (cf. pontos 6 e 8 dos factos provados), não existem elementos que permitam concluir que aquele montante é o correto para preencher o direito ao valor de metade que a mesma tem direito na massa dos bens comuns.
-TN?	not	.	.	Decisão Posto o que precede, acorda-se em conceder parcialmente a revista, e, consequentemente, declara-se a nulidade da partilha efetuada.
+TN?	not	.	.	IV) Decisão Posto o que precede, acorda-se em conceder parcialmente a revista, e, consequentemente, declara-se a nulidade da partilha efetuada.
 TN?	not	.	.	Custas pela Recorrente e pelo Recorrido, na proporção de 1/3 por aquela e 2/3 por este.
 TN?	not	.	.	Lisboa, 2 de fevereiro de 2022 Pedro de Lima Gonçalves (relator) Fenando Samões Maria João Vaz Tomé

@@ -14,7 +14,10 @@ págs PAG
 p PAG
 pp PAG
 pagina PAG
+página PAG
 paginas PAG
+páginas PAG
+in IN
 sgs SGS
 ss SGS
 v VOL
@@ -26,4 +29,10 @@ volume VOL
 ) SEP
 ; SEP
 . PONT
+` PUNC
+" PUNC
+` PUNC
+' PUNC
+`` PUNC
+'' PUNC
 nota NOT
