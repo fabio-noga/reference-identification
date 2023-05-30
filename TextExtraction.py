@@ -82,6 +82,7 @@ def extractQuoteDataFromPhrase(phrase):
     # new_sentence = new_sentence.replace('ê', 'e')
     phrase = " / ".join([part.strip() for part in phrase.split("/")])
     phrase = ". ".join([part.strip() for part in phrase.split(".")])
+
     phrase = phrase.lower()
 
     tagged_sentence = unigram_tagger.tag(nltk.word_tokenize(phrase))
@@ -110,7 +111,7 @@ def extractQuoteDataFromPhrase(phrase):
         tagged_sentence[i] = tagTuple
 
     grammar = r"""
-        NOME: {(<NPROP2>((<NPROP>|<PREP>)<NPROP2>)?)*}
+        NOME: {<NPROP2>((<NPROP>|<PREP>)?<NPROP2>)+}
         PAG_DOT: {<PAG><PONT>?}
         VOL_DOT: {<VOL><PONT>?}
         NOT_DOT: {<NOT><PONT>?}
@@ -192,24 +193,28 @@ def extractQuoteDataFromPhrase(phrase):
 
 
 def extractOtherReferenceParts(subtree_original, reference, bad_author_counter):
-    flag = False
-    book = ""
     tupleIn = ('in', 'IN')
     if tupleIn in subtree_original:
         indice_in = subtree_original.index(tupleIn)
         subtree_original = subtree_original[indice_in:]
+        bad_author_counter = 0 # Assumimos que quando "in" aparece, todos os anteriores bad authors desaparecem
+    flag_autor = False
+    if bad_author_counter == 0:
+        flag_autor = True
+    flag_titulo = False
+    book = ""
     for subtree in subtree_original:
         if not isinstance(subtree, Tree):
+            if not flag_autor:
+                continue
             if ((subtree[1] == 'PUNC' and subtree[0] == ",") or subtree[1] == 'SEP') and book != "":  # End of part
                 book = capitalizePhrase(book).strip(" ")
-                if bad_author_counter != 0:
-                    bad_author_counter -= 1
-                    book = ""
-                elif len(book) <= 1:
+
+                if len(book) <= 1:
                     book = ""
                 else:
-                    if not flag: # Titu
-                        flag = True
+                    if not flag_titulo: # Titulo
+                        flag_titulo = True
                         # reference["obra"] = book
                         book = "obra: " + book
                     elif book.isdigit() and  1800 < int(book) < 2100:
@@ -229,11 +234,17 @@ def extractOtherReferenceParts(subtree_original, reference, bad_author_counter):
                 book = book + subtree[0] + " "
         # elif subtree.label() == "NOME":
             # autor_flag = True  # Salta o 1º
+        elif subtree.label() == 'NOME':
+            if bad_author_counter != 0:
+                bad_author_counter -= 1
+                book = ""
+            else:
+                flag_autor = True
+
         elif (subtree.label() == 'VOLS' or subtree.label() == 'VOL_DOT' or
               subtree.label() == 'PAGS' or subtree.label() == 'PAG_DOT' or
               subtree.label() == 'NOTS' or subtree.label() == 'NOT_DOT' or
               subtree.label() == 'IN' or
-              subtree.label() == 'NOME' or
               subtree.label() == 'PUNC' or subtree.label() == 'REF'):
             punc = []
         else:

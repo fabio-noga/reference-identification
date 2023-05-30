@@ -3,8 +3,8 @@ import Utils
 import TextExtraction
 
 # link = input("Link para documento")
-# link = "http://www.dgsi.pt/jstj.nsf/954f0ce6ad9dd8b980256b5f003fa814/d0709de8f1e6b3be8025697e004a2120?OpenDocument"
-link = "http://www.dgsi.pt/jstj.nsf/954f0ce6ad9dd8b980256b5f003fa814/960d138417b4ee33802588e70049c8c0?OpenDocument"
+link = "http://www.dgsi.pt/jstj.nsf/954f0ce6ad9dd8b980256b5f003fa814/d0709de8f1e6b3be8025697e004a2120?OpenDocument"
+# link = "http://www.dgsi.pt/jstj.nsf/954f0ce6ad9dd8b980256b5f003fa814/960d138417b4ee33802588e70049c8c0?OpenDocument"
 
 # Download file
 full_data = Grabber.getDataFromLink(link)
