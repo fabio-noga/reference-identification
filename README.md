@@ -23,7 +23,7 @@ The official project's document's repository can be found on https://hdl.handle.
 
 If you want to refer to it you can [see it here](https://www.bibsonomy.org/bibtex/2184b0854d62f7ac461b76be6b1cdb74b/fabio-noga) or use the bib.tex
 ```
-@article{noauthororeditor,
+@article{noga2023references,
   abstract = {The decision-making process in the court of law often relies on academic legal writings, with judges referencing legal books, research articles, and other scholarly works. Establishing a citation index based on higher court jurisprudence, organized by thematic research areas, enables the assessment of the scholarly impact of legal professionals like professors, researchers, and graduate students. The automatic identification of citations in texts is a challenging task, involving the recognition of references to legal academic writings, disambiguation of authorship, and varied citation patterns. This dissertation addresses these challenges by proposing a digital infrastructure using non-relational databases, algorithms for reference identification and cleaning, and author attribution.},
   author = {Nogueira, Fabio},
   biburl = {https://www.bibsonomy.org/bibtex/2184b0854d62f7ac461b76be6b1cdb74b/fabio-noga},
