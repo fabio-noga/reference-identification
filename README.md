@@ -2,7 +2,7 @@
 
 ![Project's Pipeline](https://github.com/fabio-noga/reference-identification/assets/19254233/25df53c3-91b1-442a-adbf-2f60f857cd7b)
 
-Note: This project has had a major change for readability purposes. Having that in mind beware that some methods, functionalities or usages might not work 100% correctly as they might need to be adapted. With that said, `pipeline_example.py` works correctly and examplifies how the projects behaves (excluding NoSQL)
+Note: This project has had a major change for readability purposes. Having that in mind beware that some methods, functionalities or usages might not work 100% correctly as they might need to be adapted. With that said, `pipeline_example.py` works correctly and examplifies how the projects behaves (excluding database connection)
 
 ## Features
 * Identify references from authors' names, patterns of reference, and by BERT (LLM);
