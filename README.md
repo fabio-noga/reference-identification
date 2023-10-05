@@ -1,6 +1,6 @@
 # Identifying References to Legal Literature in Portuguese Superior Court Decisions - Master's Project Page
 
-![Project's Pipeline](https://github.com/fabio-noga/reference-identification/assets/19254233/25df53c3-91b1-442a-adbf-2f60f857cd7b)
+![Project's Pipeline](https://github.com/fabio-noga/reference-identification/assets/19254233/ef52abfb-1bbb-42b3-83ab-e97af711ae7c)
 
 Note: This project has had a major change for readability purposes. Having that in mind beware that some methods, functionalities or usages might not work 100% correctly as they might need to be adapted. With that said, `pipeline_example.py` works correctly and examplifies how the projects behaves (excluding database connection)
 
@@ -15,7 +15,7 @@ Even if this project was made with the itention to identify references in portug
 
 It has great results with multiple approaches, as can be seen here:
 
-<img src="https://github.com/fabio-noga/reference-identification/assets/19254233/55344f20-35b2-4d8b-9957-25379e62bbee" width=75% height=75%>
+<img src="https://github.com/fabio-noga/reference-identification/assets/19254233/37320714-b1e8-41da-b639-7f20bf8dfe30" width=75% height=75%>
 
 ## Project's Document
 
